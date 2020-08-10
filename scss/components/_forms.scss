@@ -1,0 +1,73 @@
+// FORMS
+.primary-content form {
+	//max-width: $container;
+	//margin: 0 auto;
+	//background: #fff;
+	//padding: 1rem;
+}
+input[type="submit"] {
+	background: $color1;
+	color: #fff;
+	padding: 4px 8px;
+	border: 1px solid $color1;
+	font-family: $font-middle;
+	&:hover {
+		background: #000;
+		border-color: #000;
+	}
+}
+.container-inline {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+
+// DRUPAL FORM
+.form-wrapper {
+	margin-bottom: 1rem;
+}
+.form-wrapper legend,
+.form-item label {
+	font-family: $font-middle;
+}
+.form-item .form-radios label,
+.form-item.form-type-checkbox label{
+	font-family: $font-body;
+}
+.form-item input {
+	padding: 4px 11px;
+	border: 1px solid #d9d9d9;
+	&:hover {
+		border-color: #40a9ff;
+	}
+}
+.form-item input[type="password"] {
+	font-family: mono;
+}
+.form-item select {
+  //background: #f1f1f1;
+  //border: none;
+  //padding: .4em;
+}
+.form-item .form-required {
+	color: red;
+}
+
+.form-item .description {
+	color: #aaa;
+	font-size: .8rem;
+	padding: 2px 4px;
+}
+
+.form-item:hover .description {
+	color: #333;
+	transition: color .2s;
+}
+
+// ERROR
+.form-item .form-text.error {
+  background: #fee;
+  border-bottom: 2px solid #f66666;
+}

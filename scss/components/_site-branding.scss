@@ -1,0 +1,42 @@
+// SITE BRANDING
+.site-branding {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+// SITE LOGO
+.site-logo {
+	height: 52px;
+	display: inline-block;
+	padding: 1rem 1rem 0.5rem 1rem;
+	a {
+		border-bottom: none;
+	}
+	img {
+		height: 100%;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 384px) {
+  .site-logo {
+    height: 26px;
+  }
+}
+@media only screen and (min-width: 1080px) {
+	.site-logo {
+		height: 60px;
+	}
+}
+
+
+// SITE NAME
+.site-name {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.site-name a {
+  text-decoration: none;
+  color: #ec1b23!important;
+  border-bottom: none;
+}

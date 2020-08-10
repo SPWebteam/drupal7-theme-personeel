@@ -1,0 +1,20 @@
+// DRUPAL TAXONOMY
+.term-listing-heading {
+	background: #fff;
+	padding: 1rem;
+}
+.taxonomy-term{
+	h2 {
+		font-family: $font-middle;
+		font-size: 1rem;
+		display: inline-block;
+		a {
+			padding: .25rem .5rem;
+			&:hover {
+				background: #333;
+				color: #fff;
+			}
+		}
+	}
+}
+.vocabulary-groups{}

@@ -1,0 +1,46 @@
+// DRUPAL VIEW STYLING
+// global view styling
+
+// EXPOSED FILTERS
+.view-filters {
+	background: #fff;
+	padding: 1rem;
+}
+
+
+// VIEW CONTENT
+.view-content {
+	background: #fff;
+}
+.view-content table {
+	width: 100%;
+	font-size: .8rem;
+	th {
+		padding: .25rem;
+	}
+}
+
+
+// VIEW PAGER
+.item-list {
+	margin: 1rem 0;
+}
+ul.pager {
+	list-style: none;
+	text-align: center;
+}
+.pager li {
+	display: inline-block;
+	background: #fff;
+	padding: .5rem;
+	font-family: $font-middle;
+	a {
+		color: #333;
+		padding: .5rem;
+		font-family: $font-middle;
+	}
+	a:hover {
+		border-bottom: none;
+		color: $color1;
+	}
+}

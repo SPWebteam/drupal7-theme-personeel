@@ -1,0 +1,77 @@
+// VIEW CALENDAR TODAY
+.view-calendar-today .field-ruimte { color: rgb(128,128,128); }
+.view-calendar-today .field-time {display: inline}
+.view-calendar-today .Congres { border-color: rgb(253,120,110); }    
+.view-calendar-today .Vergadering { border-color: rgb(254,224,80); }
+.view-calendar-today .Verlof { border-color: rgb(254, 190, 160); }
+.view-calendar-today .Tijd.voor.tijd { border-color: rgb(254, 190, 160); }
+.view-calendar-today .single-day .Verlof { border-color: rgb(252, 200, 186); }
+.view-calendar-today .Ziek { border-color: rgb(212, 190, 156); }
+.view-calendar-today .Roostervrij { border-color: rgb(223,220,210); }
+.view-calendar-today .Werkt.thuis { border-color: rgb(210,240,210); }
+.view-calendar-today .Scholing { border-color: rgb(210,230,254); }
+.view-calendar-today .Buiten.de.deur { border-color: rgb(190,190,192); }
+.view-calendar-today .Actie { border-color: rgb(236, 84, 43); }
+.view-calendar-today .Bereikbaarheidsdienst.webteam { border-color: rgb(224, 205, 205); }
+.view-calendar-today .Partij { border-color: rgb(236, 120, 120); }
+.view-calendar-today .Algemeen { border-color: rgb(204, 229, 255); }
+.view-calendar-today .Feestdag { border-color: rgb(255, 178, 102); }
+.view-calendar-today .date-nav .date-prev {display: none}
+
+@media screen and (max-width: 700px) {
+  .view-calendar-today .view-content {
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
+  -webkit-column-width: 100%;
+     -moz-column-width: 100%;
+          column-width: 100%;
+  }
+}
+
+
+// VIEW MEDEDELINGEN
+.view-mededelingen .field-content {
+  font-weight: bold;
+  font-size: 1 em;
+  color: rgb(80,0,10)
+}
+.view-mededelingen .mededeling_datum {
+  font-size: 0.75em;
+  display: inline-block;
+  color: rgb(128,128,128);
+}
+
+
+// PERSONEELSFOTOS
+.personeelsfotos  {
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+  margin:  0 0 1.4em 0;
+}
+.personeelsfotos .item-list {
+  width: 80%;
+  padding: 0;
+  margin: 0 -1.4em 0;
+  overflow: hidden;
+}
+.personeelsfotos .item-list .pager {
+  display: inline-block;
+  margin: 0;
+  padding: 1em ;
+  border-color: #fff;
+}
+.personeelsfotos .profile {
+  display: inline-block;
+  overflow: hidden;
+}
+.personeelsfotos .profile:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.03);
+  box-shadow: 0 0 1.4em rgba(2,2,2,.08);
+}
+.personeelsfotos img {
+  margin: 0;
+}

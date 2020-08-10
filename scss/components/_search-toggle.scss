@@ -1,0 +1,35 @@
+// SEARCH TOGGLE
+.search-toggle {
+	width: 120px;
+	text-align:center;
+	border-top: 4px solid #ec1b23;
+	align-self: center;
+}
+
+.search-toggle a {
+	color: #ec1b23;
+	text-decoration: none;
+	font-size: 2.4em;
+}
+
+.search-toggle a:hover {
+	color: #000;
+}
+
+.search-toggle a:before {
+	font-family: "SPruit-icons";
+	content: "S";
+}
+
+.search-toggle a .text {
+	display: none;
+}
+
+.search-toggle a {
+	color: #aaa;
+}
+@media only screen and (min-width: 1080px) {
+	.search-toggle a {
+		font-size: 3.4em;
+	}
+}

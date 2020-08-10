@@ -1,0 +1,26 @@
+// CONTENT
+
+// OLD
+.content table td {
+	padding: .72em;
+	text-align: left;
+}
+.content table thead {
+	background: #dcdcdc;
+}
+
+// TITLES
+.content-header {
+	background: #fff;
+	padding: 1rem;
+	margin: 0 auto;
+	width: 100%;
+	h1.title {
+		margin-bottom:0;
+	}
+}
+.content h2.title {
+	background: #fff;
+	padding: 1rem;
+	margin: 0 auto;
+}

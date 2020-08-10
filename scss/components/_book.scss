@@ -1,0 +1,27 @@
+// BOOK MODULE
+.book-navigation {
+  display: inline-block;
+  background: #eee;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  max-width: $col1;
+}
+@media screen and (min-width: $col3){
+  .book-navigation {
+    float: right;
+    margin-left: .5rem;
+  }
+}
+
+.book-navigation a,
+.book-navigation a:link,
+.book-navigation a:visited {
+    color: #333;
+}
+.book-navigation a.active {
+	font-weight: 700;
+}
+.book-navigation a:hover {
+	border-bottom: none;
+	color: $color1;
+}

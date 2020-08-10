@@ -1,0 +1,37 @@
+// HAMBURGER MENU
+.menu-toggle {
+  display: none;
+}
+@media only screen and (max-width: 480px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 1.14em;
+    right: 1em;
+  }
+  .menu-toggle button {
+    display: block;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-toggle button .text {
+    display: none;
+  }
+  .menu-toggle button:after {
+    font-family: 'SPruit-icons';
+    content: '\e900';
+    display: block;
+    float: right;
+    border: 1px solid #f60000;
+    background: #fff;
+    color: #f60000;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    line-height: .94;
+    height: 32px;
+    width: 37px;
+  }
+}

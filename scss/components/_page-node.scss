@@ -1,0 +1,25 @@
+// PAGE NODE
+.page-node .primary-content {
+	max-width: $col2;
+	width: 100%;
+}
+.page-node .primary-content > .content {
+	padding-bottom: 1rem;
+}
+
+
+// ALIGN TABS FOR PAGE NODES
+.page-node .primary-content > .tabs {
+	float: right;
+}
+
+
+// EXTRA PADDING (this needs a global fix)
+@media screen and (min-width: $col3){
+	.not-front.page-node .node {
+		padding: 0 4rem 4rem 4rem;
+	}
+	.not-front.page-node .content-header {
+		padding: 3rem 4rem 1rem 4rem;
+	}
+}

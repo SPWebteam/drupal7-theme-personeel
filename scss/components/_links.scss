@@ -1,0 +1,21 @@
+// LINKS (the extra options below nodes, add comment, read more)
+ul.links {
+	margin: 0;
+	padding-left: 0;
+	text-align: right;
+}
+ul.links.inline li {
+	display: inline-block;
+	a {
+		font-family: $font-middle;
+		display: inline-block;
+		padding: 0.25rem 0.5rem;
+		//background: #ddd;
+		//color: #333;
+		&:hover{
+			//background: #000;
+			color: #333;
+			border-bottom: none;
+		}
+	}
+}

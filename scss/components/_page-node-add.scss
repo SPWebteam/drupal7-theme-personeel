@@ -1,0 +1,26 @@
+// PAGE NODE ADD (old)
+/* Where spruit-personeel is used for admin */
+.page-node-add .field-widget-date-popup .description {
+    display: none;
+}
+.page-node-add .draggable td {
+    padding: 0;
+}
+.page-node-add th {
+    background: #fff;
+    text-align: left;
+}
+.page-node-add .primary-content table {
+    padding: 0;
+    margin: 0;
+}
+.page-node-add .start-date-wrapper,
+.page-node-add .end-date-wrapper {
+    max-width: 340px;
+    padding: 0;
+    margin: 0;
+}
+.page-node-add .form-item-field-cal-item-date-und-0-show-todate {
+    display: block;
+    clear: right !important;
+}

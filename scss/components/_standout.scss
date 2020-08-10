@@ -1,0 +1,30 @@
+// STANDOUT (old)
+/* Forms of highlighting */
+.stand-out {
+	background: #ec1b23;
+	padding: 1.4em;
+	color: #fff;
+}
+
+.stand-out h2{
+	color: #fff;
+	margin: 0;
+}
+
+.stand-out .form-submit {
+	background: #000;
+}
+
+.stand-out .messages {
+	margin: 1rem auto 0 auto;
+	padding: 1rem;
+	background: #fff;
+	color: #ec1b23;
+	text-align: center;
+}
+
+.stand-out textarea,
+.stand-out .description,
+.stand-out .description:hover {
+	color: #333;
+}

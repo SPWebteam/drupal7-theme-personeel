@@ -1,0 +1,29 @@
+// NODE
+.node {
+	background: #fff;
+	padding: 0 1rem;
+	
+	//clearfix on possible floating elements inside node content
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after{
+		clear: both;
+	}
+}
+
+// STICKY (could be better)
+.node-sticky {
+	.header h2:after {
+		content: "p";
+		text-transform: none; //remove uppercase
+		margin-left: .5rem;
+		font-family: $sp-icons;
+		color: $color1;
+	}
+	.meta {
+		display: none; //remove date
+	}
+}

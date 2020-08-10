@@ -1,0 +1,31 @@
+// VARIABLES
+$color1: #ec1b23;
+
+// GRID - LAYOUT
+$col1: 360px;
+$col2: $col1 * 2; //720
+$col3: $col1 * 3; //1080
+$col4: $col1 * 4; //1440
+$container: $col1 * 4; //1440
+
+
+// TYPOGRAPHY
+$font-primary: 'HelveticaInseratLTPro', sans-serif;
+$font-strong: 'HelveticaNeueLTStd-Md','Helvetica Neue',Helvetica,'Roboto Sans','Segoe UI',Arial,'Lucida Grande',sans-serif;
+$font-middle: 'HelveticaNeueLTStd-BdCn','Helvetica Neue',Helvetica,'Roboto Sans','Segoe UI',Arial,'Lucida Grande',sans-serif;
+//$font-body: 'HelveticaNeueLT-Light','Helvetica Neue',Helvetica,'Roboto Sans','Segoe UI',Arial,'Lucida Grande',sans-serif;
+$font-body: 'FreeSans', sans-serif;
+$sp-icons: 'SPruit-icons';
+
+
+// SOCIAL MEDIA
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkedin: #007bb5;
+$whatsapp: #00e676; //old #4dc247
+$snapchat: #fffc00;
+$instagram: #125688;
+$youtube: #bb0000;
+$googleplus: #dd4b39;
+$dropbox: #007ee5;
+$email: $color1;

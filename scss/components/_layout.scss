@@ -1,0 +1,33 @@
+// LAYOUT
+// don't put any styling in here. layout only!!!
+
+.layout-page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.layout-main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex:1;
+	justify-content: center;
+}
+.layout-sidebar {
+	display: flex;
+	flex-direction: column;
+}
+.layout-content {
+	display: flex;
+	flex-direction: column;
+}
+.layout-primary-content {
+	flex:1;
+	margin-top: 2rem;
+}
+
+// SIMPLE GRID
+.col1 {max-width: $col1;}
+.col2 {max-width: $col2;}
+.col3 {max-width: $col3;}
+.col4 {max-width: $col4;}

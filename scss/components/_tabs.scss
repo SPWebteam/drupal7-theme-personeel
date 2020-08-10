@@ -1,0 +1,29 @@
+// TABS
+.tabs {
+	max-width: $container;
+	margin: 0 auto;
+	text-align: right;
+	width: 100%;
+}
+.tabs ul {
+	padding-left:0;
+	margin-bottom:0;
+}
+.tabs li {
+	display: inline-block;
+}
+.tabs li a {
+	display: inline-block;
+	color: #333;
+	background: #ddd;
+	padding: .25rem;
+	font-size: .8rem;
+	border-bottom: none;
+}
+.tabs li a:hover {
+	background: #000;
+	color: #fff;
+}
+.tabs li.active {
+	display: none;
+}

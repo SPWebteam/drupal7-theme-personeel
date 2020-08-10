@@ -1,0 +1,57 @@
+// PAGE USER
+.page-user .primary-content {
+  max-width: $col3;
+  margin: 0 auto;
+}
+.page-user .profile {
+  padding: 0 1rem 1rem 1rem;
+  background: #fff;
+}
+
+// NOT LOGGED IN
+.not-logged-in .sidebar,
+.not-logged-in .site-footer {
+  display: none; //quickfix
+}
+.not-logged-in.page-user .primary-content {
+  max-width: $col1;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#user-login {
+  background: #fff;
+  padding: 0 1rem 1rem 1rem;
+}
+
+
+// OLD STUFF
+/* User login */
+#user-login #edit-name,
+#user-login #edit-pass {
+  width: 100%;
+}
+#user-pass {
+  text-align: center;
+}
+#user-pass label {
+        display: block;
+        width: 100%;
+        padding: .4em 0;
+}
+
+.login-forgot a {
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+	border: 2px solid #aaa;
+	color: #aaa;
+	display: inline-block;
+	padding: .14em .4em;
+	margin: 1em 0;
+}
+.login-forgot a:hover {
+	border-color: #222;
+	background: #000;
+	color: #fff;
+}
+

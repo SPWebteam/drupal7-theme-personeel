@@ -1,0 +1,76 @@
+// SITE NAVIGATION
+.site-navigation {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.site-navigation .title {
+	display: none;
+}
+
+.site-navigation ul {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.site-navigation li {
+	text-transform: uppercase;
+	font-family: HelveticaInseratLTPro, 'Sans serif';
+	font-weight: normal;
+	font-style: normal;
+}
+
+.site-navigation li a {
+	padding: .72em .4em;
+	color: #ec1b23;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+.site-navigation li.active-trail a {
+	color: #aaa;
+	background: #fff;
+}
+
+.site-navigation li a:hover {
+	color: #222;
+	background: #fff;
+}
+@media only screen and (max-width: 480px) {
+  .site-navigation .menu {
+    display: none;
+    top: 0;
+    left: 0;
+    background: #fff;
+  }
+  .site-navigation .menu li {
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  .site-navigation .menu li a {
+    font-size: 1.14em;
+    border-bottom: 1px solid #ec1b23;
+    display: block;
+    font-weight: normal;
+  }
+}
+
+
+// SITE NAVIGTION SECONDARY MENU
+.site-navigation .secondary-menu li a {
+  color: #888;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  font-size: 0.8em;
+  padding: 0.2em 1em;
+}
+.site-navigation .secondary-menu li a:hover,
+.site-navigation .secondary-menu li a.active-trail {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+

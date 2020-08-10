@@ -1,0 +1,31 @@
+name = SPass Personeel
+description = A minimal, low maintenance SP base theme
+package = Other
+version = 0.1
+core = 7.x
+stylesheets[all][] = css/main.css
+stylesheets[all][] = fonts/SPruit-icons.css
+stylesheets[all][] = fonts/freesans.css
+
+scripts[] = js/vendor/modernizr-2.8.3.min.js
+scripts[] = js/vendor/jquery.waypoints.min.js
+scripts[] = js/main.js
+scripts[] = js/myfonts.js
+
+regions[header] = Header
+regions[highlight] = Highlighted content
+regions[sidebar] = Sidebar
+regions[content]   = Primary content
+regions[secondary] = Secondary content
+regions[footer]    = Footer content
+
+plugins[panels][layouts] = layouts
+
+; Unset these stylesheets
+settings[unset_styles][] = modules/system/system.menus.css
+settings[unset_styles][] = modules/system/system.messages.css
+settings[unset_styles][] = modules/system/system.theme.css
+settings[unset_styles][] = modules/field/theme/field.css
+settings[unset_styles][] = modules/node/node.css
+settings[unset_styles][] = modules/user/user.css
+settings[unset_styles][] = modules/book/book.css

@@ -1,0 +1,43 @@
+// SEARCH FORMS AND BLOCKS
+
+// PAGE SEARCH
+.page-search .primary-content {
+	padding-top: 2rem;
+	max-width: $col2;
+	margin: 0 auto;
+}
+.page-search .primary-content > .content {
+	padding: 1rem;
+	background: #fff;
+}
+.page-search .primary-content {
+	padding-top: 2rem;
+}
+
+
+// SEARCH BLOCK
+#search-block-form .form-wrapper {
+	margin-bottom: 0;
+}
+#search-block-form .form-submit {
+	font-family: $sp-icons;
+	font-size: 1.125rem; 
+	padding: 6px 8px; //quickfix
+}
+
+
+// SEARCH FORM
+.search-form {  
+	max-width: $container;
+	margin: 0 auto 1rem auto;
+	background: #fff; 
+}
+
+
+// SEARCH RESULT
+.search-result {
+	max-width: $container;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 1rem 1rem 1rem;
+}

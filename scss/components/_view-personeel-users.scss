@@ -1,0 +1,191 @@
+// PAGE WIE
+.page-wie .content-header {
+  display: none;
+}
+// end shame
+
+
+// VIEW PERSONEEL USERS
+.view-personeel-users {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.view-personeel-users .view-filters {
+    background: none;
+}
+.view-personeel-users .view-content {
+    background: none;
+}
+.view-personeel-users table {
+  //background: #fff;
+}
+.view-personeel-users .item-list .pager {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  background: #fff;
+}
+
+// PROFILE (card)
+.page-wie .profile {
+  width: 280px;
+  height: 480px;
+  margin: .72em;
+  display: inline-block;
+  overflow: hidden;
+  background: #fff;
+}
+.page-wie .profile:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  box-shadow: 0 0 1.4em rgba(2,2,2,.08);
+}
+.page-wie .profile img {
+  margin: 0;
+}
+.page-wie .profile .no-picture {
+  width: 280px;
+  height: 280px;
+  background: #ccc;
+}
+.profile .title {
+  margin: .72em 0 0 0;
+}
+.profile .field-personeel-function {
+  color: #aaa;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  font-weight: normal;
+  font-size: .9em;
+  margin: .4em;
+}
+
+
+// edit??
+.page-wie .views-field-edit-node {
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  display: none;
+  font-size: .8em;
+}
+.page-wie .views-field-edit-node a {
+  display: inline-block;
+  background: #fff;
+  padding: .4em .72em;
+}
+.page-wie .views-field-edit-node a:hover {
+  background: #f60000;
+  color: #fff;
+}
+.page-wie .profile:hover .views-field-edit-node {
+  display: block;
+  width: 280px;
+  overflow: hidden;
+}
+
+
+
+// EXPOSED FORM
+.view-personeel-users .views-exposed-widgets {
+  display: flex;
+  justify-content: center;
+}
+.view-personeel-users .views-exposed-form .views-exposed-widget,
+.view-personeel-users .views-exposed-form .form-item {
+  padding: 0;
+  margin: 0;
+}
+
+.view-personeel-users .views-exposed-form .views-submit-button input {
+  font-family: $sp-icons;
+  margin-top: 0; //overwrite view.css
+  padding: 7px;
+}
+.view-personeel-users .views-exposed-form .views-reset-button input {
+  font-family: $sp-icons;
+  background: none;
+  color: #aaa;
+  border: none;
+  margin-top: 0; //overwrite view.css
+  padding: 7px;
+}
+.view-personeel-users .views-exposed-form .views-reset-button input:hover {
+  border-color: #000;
+  color: #000;
+}
+.view-personeel-users .views-exposed-form .ajax-progress .throbber {
+  position: absolute;
+}
+
+
+// ??
+.view-personeel-users .view-personeel-current-calendar-item {
+  position: absolute;
+  width: 280px;
+  height: 42px;
+  margin-top: -39px;
+  padding: 0;
+  font-size: .7em;
+  font-weight: bold;
+}
+.view-personeel-users .view-personeel-current-calendar-item .view-content {
+  padding: .4em;
+  margin: 0;
+  background: rgba(254,254,254,.6);
+}
+.view-personeel-users .view-empty {
+  padding: 7.2em;
+}
+
+@media only screen and (max-width: 465px) {
+  .page-wie #edit-submit-personeel-users {
+    padding: 8px 7px;
+    font-size: 32px;
+  }
+  .page-wie .views-exposed-form .views-reset-button {
+    display: none;
+  }
+  .page-wie .view-personeel-users .view-content {
+    padding: 0 .72em;
+  }
+  .page-wie .view-personeel-users .profile {
+    height: 120px;
+    margin: 0 0 .4em 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+  .page-wie .profile img { 
+    width: 120px; 
+    float: left;
+    display: block;
+    margin-right: .4em;
+  }
+  .page-wie .profile .title { 
+    font-size: 1em;
+    text-align: left; 
+    padding: .4em;
+    margin: 0;
+  }
+  .page-wie .profile .field-personeel-function {
+    font-size: .8em;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 466px) and (max-width: 768px) {
+  .page-wie .view-personeel-users .profile {
+    width: 200px;
+    height: 370px;
+  }
+  .page-wie .view-personeel-users .profile img {
+     width: 100%;
+  }
+  .page-wie .view-personeel-users .profile .title {
+    font-size: 1.14em;
+  }
+  .page-wie .view-personeel-users .profile .field-personeel-function {
+    font-size: .7em;
+  }
+}

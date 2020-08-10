@@ -1,0 +1,2399 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  height: 100%;
+  width: 100%; }
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #222;
+  background: #f1f1f1;
+  font-family: "FreeSans", sans-serif; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle; }
+
+textarea {
+  resize: vertical; }
+
+h1, h2, h3 {
+  font-family: "HelveticaInseratLTPro", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.14;
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+a,
+a:link,
+a:visited {
+  color: #ec1b23;
+  text-decoration: none; }
+
+a:hover {
+  border-bottom: 1px solid; }
+
+h1 a, h1 a:link, h1 a:visited,
+h2 a, h2 a:link, h2 a:visited,
+h3 a, h3 a:link, h3 a:visited {
+  color: #333; }
+  h1 a:hover, h1 a:link:hover, h1 a:visited:hover,
+  h2 a:hover, h2 a:link:hover, h2 a:visited:hover,
+  h3 a:hover, h3 a:link:hover, h3 a:visited:hover {
+    color: #ec1b23;
+    border-bottom: none; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+blockquote {
+  padding: 1rem 0;
+  text-align: center;
+  font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+  font-size: 1.4em; }
+  blockquote :first-child:before {
+    content: '\201c';
+    color: #333;
+    display: inline-block;
+    padding-right: .4em; }
+  blockquote :last-child:after {
+    content: '\201d';
+    color: #333;
+    display: inline-block;
+    padding-left: .4em; }
+
+code {
+  background: #eee;
+  padding: .4em 1.4em;
+  border: 1px solid #ddd;
+  max-width: 1080px; }
+
+strong {
+  font-family: "HelveticaNeueLTStd-Md", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+  font-weight: normal; }
+
+em {
+  font-family: "HelveticaNeueLTStd-LtIt", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+  font-style: normal; }
+
+ul, ol {
+  margin-top: 0; }
+
+:focus {
+  outline: 1px solid #40a9ff; }
+
+ul.action-links {
+  list-style: none;
+  padding-left: 1rem;
+  margin: 0 0 1rem 0; }
+  ul.action-links li {
+    display: inline-block; }
+    ul.action-links li a {
+      color: #666;
+      background: #fff;
+      padding: 4px 8px;
+      border: 1px solid #666;
+      display: inline-block; }
+      ul.action-links li a:hover {
+        color: #ec1b23;
+        border-color: #ec1b23; }
+
+.book-navigation {
+  display: inline-block;
+  background: #eee;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  max-width: 360px; }
+
+@media screen and (min-width: 1080px) {
+  .book-navigation {
+    float: right;
+    margin-left: .5rem; } }
+.book-navigation a,
+.book-navigation a:link,
+.book-navigation a:visited {
+  color: #333; }
+
+.book-navigation a.active {
+  font-weight: 700; }
+
+.book-navigation a:hover {
+  border-bottom: none;
+  color: #ec1b23; }
+
+.breadcrumb {
+  margin: auto;
+  font-size: .9em; }
+
+.breadcrumb ul {
+  max-width: 960px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  padding: 0  .4em .42em .4em; }
+
+.breadcrumb a {
+  margin-right: .4em;
+  color: #aaa;
+  text-decoration: none; }
+
+.view-calender .calendar-calendar {
+  overflow: auto; }
+
+.page-calendar .primary-content .content {
+  padding-top: 1rem; }
+
+.view-calendar {
+  padding: 0 1rem;
+  overflow-x: scroll; }
+
+.view-calender .view-header {
+  margin: 0 auto; }
+
+.view-id-personeel_calendar .date-nav-wrapper .date-nav {
+  margin: 0;
+  padding: 0; }
+
+/*
+.view-calender .action-links {
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  a{
+    background: #f1f1f1;
+    padding: .4em;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0;
+  }
+}
+*/
+.view-calendar .date-heading h3 {
+  text-align: left;
+  font-size: 1.4em; }
+
+.view-calendar .view-header .pager a {
+  background: none;
+  padding: 0 .4em;
+  display: inline-block;
+  font-size: 1.9em;
+  font-weight: normal; }
+
+.view-calendar .month-view .days {
+  background: #aaa;
+  color: #fff; }
+
+.view-calendar .month-view .entry {
+  font-family: Arial,Helvetica,'Sans serif';
+  font-size: 11px;
+  padding: .4em;
+  margin: 0 0 .21em 0;
+  color: rgba(2, 2, 2, 0.72); }
+
+.view-calendar .month-view .entry .field-cal-item-name {
+  color: #000;
+  font-weight: normal;
+  display: inline-block; }
+
+.view-calendar .month-view .entry .field-event-type {
+  display: inline-block;
+  color: rgba(1, 1, 1, 0.5); }
+
+.view-calendar .month-view .entry .field-cal-item-date {
+  text-align: right;
+  display: inline;
+  font-weight: normal; }
+
+.view-calendar .month-view .entry .date-display-single {
+  font-weight: normal; }
+
+.view-calendar .month-view .entry .edit-link {
+  display: none; }
+
+.view-calendar .month-view .entry .field-author-name {
+  display: none; }
+
+.view-calendar .month-view .entry:hover {
+  background: #fafafa;
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  box-shadow: 0 0 0.4em rgba(2, 2, 2, 0.5); }
+
+.view-calendar .month-view .entry:hover .edit-link {
+  display: inline-block;
+  font-weight: normal; }
+
+.view-calendar .month-view .entry:hover .field-author-name {
+  display: inline-block;
+  font-style: italic;
+  color: #888; }
+
+.view-calendar .entry:hover {
+  background: #fafafa;
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  box-shadow: 0 0 1em rgba(2, 2, 2, 0.2); }
+
+.view-calendar .month-view .full td.date-box:hover .add-event {
+  display: block; }
+
+.view-calendar .date-box .add-event {
+  display: none;
+  position: absolute;
+  text-align: center;
+  color: #fff; }
+
+.view-calendar .date-box .add-event a {
+  display: inline-block;
+  padding: .4em .4em;
+  line-height: 1;
+  color: #fff;
+  font-family: "SPnet-icons";
+  font-size: .8em;
+  background: #aaa;
+  border-radius: 2em;
+  text-decoration: none;
+  border: none; }
+
+.view-calendar .date-box .add-event a:hover {
+  display: inline-block;
+  padding: .4em .4em;
+  line-height: 1;
+  color: #fff;
+  font-family: "SPnet-icons";
+  background: #000;
+  border-radius: 2em; }
+
+.view-calendar .date-box .day:hover .add-event {
+  display: block; }
+
+.view-calendar .month-view .days {
+  background-color: #eee;
+  border-color: #ccc;
+  color: #ccc;
+  font-weight: normal;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif'; }
+
+.view-calendar .month-view .full tr td.multi-day.starts-today,
+.view-calendar .month-view .full tr td.multi-day.ends-today,
+.view-calendar .month-view .full tr td.today {
+  border-color: #fd786e !important; }
+
+.view-calendar .date-box.today .day {
+  background-color: #fd5a5a;
+  color: #fff;
+  margin-top: -1px;
+  margin-right: -2px;
+  padding: 2px; }
+
+.view-calendar .date-box .day {
+  background: none;
+  border: none;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  color: #999; }
+
+.view-calendar td[headers="zaterdag"],
+.view-calendar td[headers="zondag"] {
+  background: #fafafa; }
+
+.view-calendar .single-day .dagindeling {
+  background: none;
+  box-shadow: none;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+  color: #aaa;
+  text-align: center;
+  font-size: .7em; }
+
+.view-calendar .dagindeling .field-event-type,
+.view-calendar .dagindeling:hover .field-event-type {
+  display: none !important; }
+
+.view-calendar .dagindeling .date-display-single,
+.view-calendar .dagindeling .field-ruimte,
+.view-calendar .dagindeling .field-hulpbron {
+  display: none; }
+
+.view-calendar .dagindeling:hover .date-display-single,
+.view-calendar .dagindeling:hover .field-ruimte,
+.view-calendar .dagindeling:hover .field-hulpbron {
+  display: block; }
+
+.view-calendar .field-ruimte,
+.view-calendar .field-hulpbron {
+  background: #fff;
+  padding: .71em;
+  margin: .4em 0; }
+
+.view-calendar .past .field-ruimte,
+.view-calendar .past .field-hulpbron,
+.view-calendar .past .date-display-single,
+.view-calendar .past .field-time {
+  display: none; }
+
+.view-calendar .congres {
+  background: #fd786e; }
+
+.view-calendar .vergadering {
+  background: #fee050; }
+
+.view-calendar .verlof,
+.view-calendar .tijd-voor-tijd {
+  background: #febea0; }
+
+.view-calendar .single-day .verlof {
+  background: #fcc8ba; }
+
+.view-calendar .ziek {
+  background: #d4be9c; }
+
+.view-calendar .roostervrij {
+  background: #dfdcd2; }
+
+.view-calendar .werkt-thuis {
+  background: #d2f0d2; }
+
+.view-calendar .scholing {
+  background: #d2e6fe; }
+
+.view-calendar .buiten-de-deur {
+  background: #bebec0; }
+
+.view-calendar .actie {
+  background: #ec542b; }
+
+.view-calendar .bereikbaarheidsdienst-webteam {
+  background: #e0cdcd; }
+
+.view-calendar .partij {
+  background: #ec7878; }
+
+.view-calendar .aanwezigheidsmelding-corona {
+  background: #eee; }
+
+.view-calendar .month-view .full td.single-day .calendar-empty .day,
+.view-calendar .month-view .full td.single-day.empty .day,
+.view-calendar .month-view .full td.date-box.empty .day {
+  visibility: hidden; }
+
+.view-calendar .view-filters {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.view-calendar .view-filters form {
+  margin: 0;
+  padding: 0; }
+
+.view-calendar .view-filters .description {
+  display: none; }
+
+.view-id-personeel_today ul {
+  padding: 0;
+  margin: 0 0 1rem; }
+
+.view-id-personeel_today li {
+  display: block;
+  padding: .5rem;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: .1rem; }
+
+.view-id-personeel_today li div {
+  display: inline-block; }
+
+.view-id-personeel_today li:before {
+  content: 'T';
+  display: inline-block;
+  font-family: SPruit-icons;
+  color: #ec1b23;
+  font-size: 1rem;
+  margin-right: .5rem; }
+
+.view-calendar-today .view-content {
+  max-width: 72vw;
+  margin: auto;
+  background: #f1f1f1;
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.view-calendar-today .views-row {
+  background: #fff;
+  margin: 1rem;
+  padding: 1em; }
+
+.content table td {
+  padding: .72em;
+  text-align: left; }
+
+.content table thead {
+  background: #dcdcdc; }
+
+.content-header {
+  background: #fff;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 100%; }
+  .content-header h1.title {
+    margin-bottom: 0; }
+
+.content h2.title {
+  background: #fff;
+  padding: 1rem;
+  margin: 0 auto; }
+
+/* Images - basic positioning */
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: .4em;
+  display: block; }
+
+.primary-content .content .align-left {
+  margin-right: 1.4em;
+  margin-bottom: 1em;
+  float: left; }
+
+.primary-content .content .align-right {
+  margin-left: 1.4em;
+  margin-bottom: 1em;
+  float: right; }
+
+@media only screen and (min-width: 1080px) {
+  /* Content */
+  .primary-content .content .align-right {
+    margin-right: -3.2em; }
+
+  .primary-content .content .align-left {
+    margin-left: -3.2em; } }
+.primary-content .original-size {
+  text-align: center;
+  margin: 0; }
+
+.primary-content .full-width {
+  text-align: center;
+  margin: 0; }
+
+.primary-content .full-width img {
+  width: 100%; }
+
+.primary-content .image-set {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.primary-content .image-set img {
+  display: inline-block;
+  margin: .4em; }
+
+.primary-content .viewport-height {
+  width: 100%;
+  margin: 0; }
+
+.primary-content .viewport-height img {
+  max-width: auto !important;
+  height: 100vh; }
+
+/* Images - figure positioning */
+.primary-content .content figcaption {
+  color: #aaa;
+  font-size: .9em;
+  padding: .4em 0; }
+
+.primary-content .figure-wrapper {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.view-calendar-today .field-ruimte {
+  color: gray; }
+
+.view-calendar-today .field-time {
+  display: inline; }
+
+.view-calendar-today .Congres {
+  border-color: #fd786e; }
+
+.view-calendar-today .Vergadering {
+  border-color: #fee050; }
+
+.view-calendar-today .Verlof {
+  border-color: #febea0; }
+
+.view-calendar-today .Tijd.voor.tijd {
+  border-color: #febea0; }
+
+.view-calendar-today .single-day .Verlof {
+  border-color: #fcc8ba; }
+
+.view-calendar-today .Ziek {
+  border-color: #d4be9c; }
+
+.view-calendar-today .Roostervrij {
+  border-color: #dfdcd2; }
+
+.view-calendar-today .Werkt.thuis {
+  border-color: #d2f0d2; }
+
+.view-calendar-today .Scholing {
+  border-color: #d2e6fe; }
+
+.view-calendar-today .Buiten.de.deur {
+  border-color: #bebec0; }
+
+.view-calendar-today .Actie {
+  border-color: #ec542b; }
+
+.view-calendar-today .Bereikbaarheidsdienst.webteam {
+  border-color: #e0cdcd; }
+
+.view-calendar-today .Partij {
+  border-color: #ec7878; }
+
+.view-calendar-today .Algemeen {
+  border-color: #cce5ff; }
+
+.view-calendar-today .Feestdag {
+  border-color: #ffb266; }
+
+.view-calendar-today .date-nav .date-prev {
+  display: none; }
+
+@media screen and (max-width: 700px) {
+  .view-calendar-today .view-content {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%; } }
+.view-mededelingen .field-content {
+  font-weight: bold;
+  font-size: 1 em;
+  color: #50000a; }
+
+.view-mededelingen .mededeling_datum {
+  font-size: 0.75em;
+  display: inline-block;
+  color: gray; }
+
+.personeelsfotos {
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+  margin: 0 0 1.4em 0; }
+
+.personeelsfotos .item-list {
+  width: 80%;
+  padding: 0;
+  margin: 0 -1.4em 0;
+  overflow: hidden; }
+
+.personeelsfotos .item-list .pager {
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  border-color: #fff; }
+
+.personeelsfotos .profile {
+  display: inline-block;
+  overflow: hidden; }
+
+.personeelsfotos .profile:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.03);
+  box-shadow: 0 0 1.4em rgba(2, 2, 2, 0.08); }
+
+.personeelsfotos img {
+  margin: 0; }
+
+.site-footer {
+  text-align: center;
+  color: #aaa;
+  background: #fff;
+  padding-top: 1rem; }
+
+.site-footer:after {
+  font-family: SPruit-Icons;
+  content: 'T';
+  line-height: 1;
+  display: block;
+  height: 26px;
+  color: #ec1b23;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  font-size: 52px; }
+
+@media only screen and (max-width: 480px) {
+  .site-footer:after {
+    padding-top: .4em;
+    position: relative !important; } }
+.site-footer .block-menu {
+  overflow: hidden;
+  background: #ec1b23; }
+
+.site-footer .block-menu a {
+  color: #fff; }
+
+.site-footer .block-menu .title {
+  display: none; }
+
+.site-footer .block-menu ul {
+  list-style: none; }
+
+.site-footer .block-menu li {
+  display: inline-block;
+  padding: .2em; }
+
+.site-footer .block-menu li a {
+  display: inline-block;
+  padding: .4em 1em;
+  font-size: .9em;
+  text-decoration: none;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif'; }
+
+.site-footer .block-menu li a:hover {
+  background: #000;
+  border-color: #000; }
+
+.site-footer .block-menu:nth-of-type(2n) {
+  background: none; }
+
+.site-footer .block-menu:nth-of-type(2n) a {
+  border: none;
+  color: #000;
+  padding: 0 .14em;
+  border-bottom: 2px solid #000; }
+
+.site-footer .block-menu:nth-of-type(2n) a:hover {
+  color: #ec1b23;
+  border-color: #ec1b23;
+  background: none; }
+
+.site-footer .copyright {
+  padding: .72em 1em;
+  margin: 1em auto;
+  border: 1px solid #aaa;
+  color: #888;
+  font-size: .8em;
+  max-width: 320px; }
+
+input[type="submit"] {
+  background: #ec1b23;
+  color: #fff;
+  padding: 4px 8px;
+  border: 1px solid #ec1b23;
+  font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif; }
+  input[type="submit"]:hover {
+    background: #000;
+    border-color: #000; }
+
+.container-inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.form-wrapper {
+  margin-bottom: 1rem; }
+
+.form-wrapper legend,
+.form-item label {
+  font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif; }
+
+.form-item .form-radios label,
+.form-item.form-type-checkbox label {
+  font-family: "FreeSans", sans-serif; }
+
+.form-item input {
+  padding: 4px 11px;
+  border: 1px solid #d9d9d9; }
+  .form-item input:hover {
+    border-color: #40a9ff; }
+
+.form-item input[type="password"] {
+  font-family: mono; }
+
+.form-item .form-required {
+  color: red; }
+
+.form-item .description {
+  color: #aaa;
+  font-size: .8rem;
+  padding: 2px 4px; }
+
+.form-item:hover .description {
+  color: #333;
+  transition: color .2s; }
+
+.form-item .form-text.error {
+  background: #fee;
+  border-bottom: 2px solid #f66666; }
+
+.menu-toggle {
+  display: none; }
+
+@media only screen and (max-width: 480px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 1.14em;
+    right: 1em; }
+
+  .menu-toggle button {
+    display: block;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0; }
+
+  .menu-toggle button .text {
+    display: none; }
+
+  .menu-toggle button:after {
+    font-family: 'SPruit-icons';
+    content: '\e900';
+    display: block;
+    float: right;
+    border: 1px solid #f60000;
+    background: #fff;
+    color: #f60000;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    line-height: .94;
+    height: 32px;
+    width: 37px; } }
+.site-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  /* Faux top-border */
+  background: #fff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ec1b23 5px, #ffffff 5px);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5px, #ec1b23), color-stop(5px, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ec1b23 5px, #ffffff 5px);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ec1b23 5px, #ffffff 5px);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ec1b23 5px, #ffffff 5px);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ec1b23 5px, #ffffff 5px);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1b23', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */ }
+
+.header-nav {
+  display: flex;
+  align-items: stretch;
+  margin: 0 auto; }
+  .header-nav .block-menu {
+    display: flex; }
+    .header-nav .block-menu .content {
+      display: flex; }
+
+.header-nav ul.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0; }
+  .header-nav ul.menu li {
+    display: flex;
+    align-items: center; }
+  .header-nav ul.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-family: "HelveticaInseratLTPro", sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase; }
+    .header-nav ul.menu a:hover {
+      color: #000;
+      border-bottom: none; }
+
+/* =========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers:
+ * http://juicystudio.com/article/screen-readers-display-none.php
+ */
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.invisible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+ * Extends the .invisible class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.invisible.focusable:active,
+.invisible.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+.highlight-content {
+  background: #f1f1f1; }
+
+.highlight-content .block {
+  background: #fff;
+  border-bottom: 4px solid #ddd;
+  max-width: 720px;
+  margin: 1rem auto;
+  padding: 1rem 1rem 0 1rem; }
+
+.layout-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.layout-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+  justify-content: center; }
+
+.layout-sidebar {
+  display: flex;
+  flex-direction: column; }
+
+.layout-content {
+  display: flex;
+  flex-direction: column; }
+
+.layout-primary-content {
+  flex: 1;
+  margin-top: 2rem; }
+
+.col1 {
+  max-width: 360px; }
+
+.col2 {
+  max-width: 720px; }
+
+.col3 {
+  max-width: 1080px; }
+
+.col4 {
+  max-width: 1440px; }
+
+ul.links {
+  margin: 0;
+  padding-left: 0;
+  text-align: right; }
+
+ul.links.inline li {
+  display: inline-block; }
+  ul.links.inline li a {
+    font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+    display: inline-block;
+    padding: 0.25rem 0.5rem; }
+    ul.links.inline li a:hover {
+      color: #333;
+      border-bottom: none; }
+
+.page-lunch .tabs li.active {
+  display: inline-block; }
+
+.page-lunch .tabs li.active a {
+  color: #fff;
+  background-color: #000; }
+
+.page-lunch .content table td {
+  padding: 0 1em; }
+
+.page-lunch .primary-content .content {
+  text-align: center;
+  background: #eee;
+  padding-bottom: 2em; }
+
+.page-lunch .primary-content .tabs {
+  margin-bottom: .4em;
+  text-align: center; }
+
+.page-lunch .content form {
+  display: inline-block;
+  background: #fff;
+  padding: 2em;
+  margin: 2em; }
+
+.page-lunch .content table thead {
+  background: #f60000 none repeat scroll 0% 0%;
+  color: #fff; }
+
+.page-lunch header.content-header {
+  display: none; }
+
+.page-lunch td.active-week {
+  border-top: 1px solid #f60000;
+  border-bottom: 1px solid #f60000; }
+
+.page-lunch td.active-day {
+  color: #f60000; }
+
+.page-lunch .site-footer div.content {
+  background: #fff; }
+
+.page-lunch-mutations content {
+  background-color: #fff; }
+
+.page-lunch-mutations table {
+  font-size: 0.9em; }
+
+#lunch-info-form ul {
+  list-style: none; }
+
+#lunch-info-form ul li {
+  padding: 0; }
+
+.messages ul {
+  text-align: left; }
+
+.messages .message {
+  padding: .72em 1.4em;
+  max-width: 720px;
+  margin: .4em auto;
+  text-align: center;
+  font-size: .9em;
+  text-shadow: 1px 1px 0 rgba(2, 2, 2, 0.1); }
+
+.messages .message a {
+  padding: .17em .4em; }
+
+.messages .message:before {
+  font-family: 'SPruit-Icons';
+  font-size: 1.14em; }
+
+.messages .status {
+  background: #5f7; }
+
+.messages .status:before {
+  content: '\e606'; }
+
+.messages .warning {
+  background: #ff2; }
+
+.messages .warning:before {
+  content: '\e607'; }
+
+.messages .error {
+  background: #fff1f1;
+  border: 2px solid #faa; }
+
+.messages .error:before {
+  content: '\e605';
+  vertical-align: -1px;
+  color: #ec1b23; }
+
+ul.menu {
+  padding-left: 1rem;
+  margin-top: 0; }
+
+/* Highlight content navigation (menus) */
+.highlight-content .block-menu {
+  max-width: 100%;
+  border: none;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+
+.highlight-content .block-menu .title {
+  display: none; }
+
+.highlight-content .block-menu ul {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding: .1em; }
+
+.highlight-content .block-menu li {
+  display: inline-block;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  text-transform: uppercase; }
+
+.highlight-content .block-menu li a {
+  display: inline-block;
+  padding: .4em;
+  border: 1px solid #ddd;
+  color: #888;
+  text-decoration: none; }
+
+/* Navigation in content */
+.content .content-menu {
+  margin: 0;
+  padding: 0;
+  overflow: visible; }
+
+.content .content-menu li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-right: .4em;
+  text-transform: uppercase; }
+
+.content .content-menu li a {
+  display: inline-block;
+  padding: .4em;
+  margin: 0;
+  border: 1px solid #ec1b23; }
+
+.content .content-menu li a:hover {
+  background: #000;
+  border-color: #000;
+  color: #fff !important; }
+
+.node {
+  background: #fff;
+  padding: 0 1rem; }
+  .node:before, .node:after {
+    content: " ";
+    display: table; }
+  .node:after {
+    clear: both; }
+
+.node-sticky .header h2:after {
+  content: "p";
+  text-transform: none;
+  margin-left: .5rem;
+  font-family: "SPruit-icons";
+  color: #ec1b23; }
+.node-sticky .meta {
+  display: none; }
+
+.page-arie .primary-content {
+  background: #fff; }
+
+.page-arie .primary-content > .content {
+  padding: 1rem; }
+
+.page-eform .primary-content {
+  max-width: 720px;
+  margin: 0 auto; }
+
+.page-eform .primary-content form {
+  background: #fff;
+  padding: 1rem; }
+
+.front .primary-content .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.front .section {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.front .view-nieuws {
+  max-width: calc(720px - 1rem);
+  margin-right: 1rem; }
+
+.front .view-calendar-vandaag {
+  max-width: 220px; }
+
+.page-node .primary-content {
+  max-width: 720px;
+  width: 100%; }
+
+.page-node .primary-content > .content {
+  padding-bottom: 1rem; }
+
+.page-node .primary-content > .tabs {
+  float: right; }
+
+@media screen and (min-width: 1080px) {
+  .not-front.page-node .node {
+    padding: 0 4rem 4rem 4rem; }
+
+  .not-front.page-node .content-header {
+    padding: 3rem 4rem 1rem 4rem; } }
+/* Where spruit-personeel is used for admin */
+.page-node-add .field-widget-date-popup .description {
+  display: none; }
+
+.page-node-add .draggable td {
+  padding: 0; }
+
+.page-node-add th {
+  background: #fff;
+  text-align: left; }
+
+.page-node-add .primary-content table {
+  padding: 0;
+  margin: 0; }
+
+.page-node-add .start-date-wrapper,
+.page-node-add .end-date-wrapper {
+  max-width: 340px;
+  padding: 0;
+  margin: 0; }
+
+.page-node-add .form-item-field-cal-item-date-und-0-show-todate {
+  display: block;
+  clear: right !important; }
+
+.page-taxonomy .primary-content {
+  max-width: 1080px; }
+
+.node-type-node-gallery-item .field-node-gallery-media img {
+  margin: auto; }
+
+.field-node-gallery-media img {
+  max-width: 100vw;
+  width: auto; }
+
+/* View personeel calendar elements */
+.view-personeel-today .date-heading h3 {
+  text-align: left;
+  font-size: 1.4em; }
+
+.view-personeel-today .view-header .pager a {
+  background: none;
+  padding: 0 .4em;
+  display: inline-block;
+  font-size: 1.9em;
+  font-weight: normal; }
+
+/* Event type colors */
+.view-personeel-today .congres {
+  background: #fd786e; }
+
+.view-personeel-today .vergadering {
+  background: #fee050; }
+
+.view-personeel-today .verlof,
+.view-personeel-today .tijd-voor-tijd {
+  background: #febea0; }
+
+.view-personeel-today .single-day .verlof {
+  background: #fcc8ba; }
+
+.view-personeel-today .ziek {
+  background: #d4be9c; }
+
+.view-personeel-today .roostervrij {
+  background: #dfdcd2; }
+
+.view-personeel-today .werkt-thuis {
+  background: #d2f0d2; }
+
+.view-personeel-today .scholing {
+  background: #d2e6fe; }
+
+.view-personeel-today .buiten-de-deur {
+  background: #bebec0; }
+
+.view-personeel-today .actie {
+  background: #ec542b; }
+
+.view-personeel-today .bereikbaarheidsdienst-webteam {
+  background: #e0cdcd; }
+
+.view-personeel-today .partij {
+  background: #ec7878; }
+
+.view-personeel-today .month-view .full td.single-day .calendar-empty .day,
+.view-personeel-today .month-view .full td.single-day.empty .day,
+.view-personeel-today .month-view .full td.date-box.empty .day {
+  visibility: hidden; }
+
+/* Today view */
+.view-id-personeel_today ul {
+  padding: 0;
+  margin: 0 0 1rem; }
+
+.view-id-personeel_today li {
+  display: block;
+  padding: .5rem;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: .1rem; }
+
+.view-id-personeel_today li div {
+  display: inline-block; }
+
+.view-id-personeel_today li:before {
+  content: 'T';
+  display: inline-block;
+  font-family: SPruit-icons;
+  color: #ec1b23;
+  font-size: 1rem;
+  margin-right: .5rem; }
+
+.page-search .primary-content {
+  padding-top: 2rem;
+  max-width: 720px;
+  margin: 0 auto; }
+
+.page-search .primary-content > .content {
+  padding: 1rem;
+  background: #fff; }
+
+.page-search .primary-content {
+  padding-top: 2rem; }
+
+#search-block-form .form-wrapper {
+  margin-bottom: 0; }
+
+#search-block-form .form-submit {
+  font-family: "SPruit-icons";
+  font-size: 1.125rem;
+  padding: 6px 8px; }
+
+.search-form {
+  max-width: 1440px;
+  margin: 0 auto 1rem auto;
+  background: #fff; }
+
+.search-result {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 1rem 1rem 1rem; }
+
+.search-toggle {
+  width: 120px;
+  text-align: center;
+  border-top: 4px solid #ec1b23;
+  align-self: center; }
+
+.search-toggle a {
+  color: #ec1b23;
+  text-decoration: none;
+  font-size: 2.4em; }
+
+.search-toggle a:hover {
+  color: #000; }
+
+.search-toggle a:before {
+  font-family: "SPruit-icons";
+  content: "S"; }
+
+.search-toggle a .text {
+  display: none; }
+
+.search-toggle a {
+  color: #aaa; }
+
+@media only screen and (min-width: 1080px) {
+  .search-toggle a {
+    font-size: 3.4em; } }
+.sidebar {
+  display: flex;
+  flex-direction: column; }
+
+.sidebar-fixed {
+  width: 220px;
+  padding-top: 1rem;
+  background: #fff;
+  margin: 2rem 1rem 1rem 1rem; }
+
+.sidebar .block-menu {
+  padding: 0 1rem; }
+  .sidebar .block-menu h2 {
+    margin-bottom: .25rem;
+    font-size: 1rem;
+    font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif; }
+  .sidebar .block-menu ul.menu {
+    list-style: none;
+    padding-left: 0; }
+  .sidebar .block-menu ul.menu li a {
+    display: block;
+    border-bottom: none;
+    padding: 2px 4px;
+    color: #333; }
+    .sidebar .block-menu ul.menu li a:hover {
+      background: #f1f1f1; }
+
+.sidebar .block-search {
+  padding: 0 1rem;
+  margin-bottom: 1rem; }
+  .sidebar .block-search input {
+    width: 100%; }
+
+.site-branding {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+.site-logo {
+  height: 52px;
+  display: inline-block;
+  padding: 1rem 1rem 0.5rem 1rem; }
+  .site-logo a {
+    border-bottom: none; }
+  .site-logo img {
+    height: 100%;
+    width: auto; }
+
+@media only screen and (max-width: 384px) {
+  .site-logo {
+    height: 26px; } }
+@media only screen and (min-width: 1080px) {
+  .site-logo {
+    height: 60px; } }
+.site-name {
+  padding-left: 1rem;
+  font-size: 1rem; }
+
+.site-name a {
+  text-decoration: none;
+  color: #ec1b23 !important;
+  border-bottom: none; }
+
+.site-navigation {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0; }
+
+.site-navigation .title {
+  display: none; }
+
+.site-navigation ul {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.site-navigation li {
+  text-transform: uppercase;
+  font-family: HelveticaInseratLTPro, 'Sans serif';
+  font-weight: normal;
+  font-style: normal; }
+
+.site-navigation li a {
+  padding: .72em .4em;
+  color: #ec1b23;
+  font-size: 1.4em;
+  text-decoration: none; }
+
+.site-navigation li.active-trail a {
+  color: #aaa;
+  background: #fff; }
+
+.site-navigation li a:hover {
+  color: #222;
+  background: #fff; }
+
+@media only screen and (max-width: 480px) {
+  .site-navigation .menu {
+    display: none;
+    top: 0;
+    left: 0;
+    background: #fff; }
+
+  .site-navigation .menu li {
+    display: block;
+    text-align: left;
+    width: 100%; }
+
+  .site-navigation .menu li a {
+    font-size: 1.14em;
+    border-bottom: 1px solid #ec1b23;
+    display: block;
+    font-weight: normal; } }
+.site-navigation .secondary-menu li a {
+  color: #888;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  font-size: 0.8em;
+  padding: 0.2em 1em; }
+
+.site-navigation .secondary-menu li a:hover,
+.site-navigation .secondary-menu li a.active-trail {
+  color: #000;
+  background-color: #fff;
+  border-color: #000; }
+
+/* Forms of highlighting */
+.stand-out {
+  background: #ec1b23;
+  padding: 1.4em;
+  color: #fff; }
+
+.stand-out h2 {
+  color: #fff;
+  margin: 0; }
+
+.stand-out .form-submit {
+  background: #000; }
+
+.stand-out .messages {
+  margin: 1rem auto 0 auto;
+  padding: 1rem;
+  background: #fff;
+  color: #ec1b23;
+  text-align: center; }
+
+.stand-out textarea,
+.stand-out .description,
+.stand-out .description:hover {
+  color: #333; }
+
+.tabs {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: right;
+  width: 100%; }
+
+.tabs ul {
+  padding-left: 0;
+  margin-bottom: 0; }
+
+.tabs li {
+  display: inline-block; }
+
+.tabs li a {
+  display: inline-block;
+  color: #333;
+  background: #ddd;
+  padding: .25rem;
+  font-size: .8rem;
+  border-bottom: none; }
+
+.tabs li a:hover {
+  background: #000;
+  color: #fff; }
+
+.tabs li.active {
+  display: none; }
+
+.term-listing-heading {
+  background: #fff;
+  padding: 1rem; }
+
+.taxonomy-term h2 {
+  font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+  font-size: 1rem;
+  display: inline-block; }
+  .taxonomy-term h2 a {
+    padding: .25rem .5rem; }
+    .taxonomy-term h2 a:hover {
+      background: #333;
+      color: #fff; }
+
+nav.top-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 1em 0 1em 0; }
+
+nav.top-nav a {
+  display: none;
+  height: 2.4em;
+  width: 3.6em;
+  background: #F00;
+  color: #fff;
+  float: right;
+  margin-right: .72em;
+  text-decoration: none;
+  text-align: center; }
+
+nav.top-nav a:hover {
+  background: #000; }
+
+nav.top-nav a:before {
+  content: "^";
+  font-family: 'SPruit-icons';
+  font-size: 1.8em; }
+
+nav.top-nav a .text {
+  display: none; }
+
+nav.top-nav.bottom {
+  position: relative; }
+
+.page-user .primary-content {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+.page-user .profile {
+  padding: 0 1rem 1rem 1rem;
+  background: #fff; }
+
+.not-logged-in .sidebar,
+.not-logged-in .site-footer {
+  display: none; }
+
+.not-logged-in.page-user .primary-content {
+  max-width: 360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+#user-login {
+  background: #fff;
+  padding: 0 1rem 1rem 1rem; }
+
+/* User login */
+#user-login #edit-name,
+#user-login #edit-pass {
+  width: 100%; }
+
+#user-pass {
+  text-align: center; }
+
+#user-pass label {
+  display: block;
+  width: 100%;
+  padding: .4em 0; }
+
+.login-forgot a {
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  border: 2px solid #aaa;
+  color: #aaa;
+  display: inline-block;
+  padding: .14em .4em;
+  margin: 1em 0; }
+
+.login-forgot a:hover {
+  border-color: #222;
+  background: #000;
+  color: #fff; }
+
+.meta {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #999;
+  font-size: 0.8rem; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.view-filters {
+  background: #fff;
+  padding: 1rem; }
+
+.view-content {
+  background: #fff; }
+
+.view-content table {
+  width: 100%;
+  font-size: .8rem; }
+  .view-content table th {
+    padding: .25rem; }
+
+.item-list {
+  margin: 1rem 0; }
+
+ul.pager {
+  list-style: none;
+  text-align: center; }
+
+.pager li {
+  display: inline-block;
+  background: #fff;
+  padding: .5rem;
+  font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif; }
+  .pager li a {
+    color: #333;
+    padding: .5rem;
+    font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif; }
+  .pager li a:hover {
+    border-bottom: none;
+    color: #ec1b23; }
+
+.view-calendar-vandaag .date-nav-wrapper {
+  display: none; }
+
+.view-calendar-vandaag .views-row-last {
+  margin-bottom: 1rem; }
+
+.view-calendar-vandaag {
+  padding: 1rem;
+  background: #fff; }
+
+.view-calendar-vandaag .views-row {
+  font-size: .75rem; }
+
+.view-calendar-vandaag .field-ruimte {
+  color: #888;
+  padding-left: .25rem;
+  font-style: italic; }
+
+.page-fotogallerij .overview {
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+  margin: 0 0 1.4em 0; }
+
+.page-fotogallerij .overview .profile {
+  width: 280px;
+  height: 480px;
+  margin: .72em;
+  display: inline-block;
+  overflow: hidden;
+  background: #fff; }
+  .page-fotogallerij .overview .profile :hover {
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    box-shadow: 0 0 1.4em rgba(2, 2, 2, 0.08); }
+
+.page-fotogallerij .profile:hover .views-field-edit-node {
+  display: block;
+  width: 280px;
+  overflow: hidden; }
+
+.page-fotogallerij .overview img {
+  margin: 0; }
+
+.page-fotogallerij .overview .no-picture {
+  width: 280px;
+  height: 280px;
+  background: #ccc; }
+
+.page-fotogallerij .content-header {
+  display: none; }
+
+.page-fotogallerij .views-field-edit-node {
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  display: none;
+  font-size: .8em; }
+
+.page-fotogallerij .views-field-edit-node a {
+  display: inline-block;
+  background: #fff;
+  padding: .4em .72em; }
+
+.page-fotogallerij .views-field-edit-node a:hover {
+  background: #f60000;
+  color: #fff; }
+
+.profile .title {
+  margin: .72em 0 0 0; }
+
+.profile .field-personeel-function {
+  color: #aaa;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  font-weight: normal;
+  font-size: .9em;
+  margin: .4em; }
+
+.page-fotogallerij .view-filters {
+  background: #ddd;
+  overflow: hidden;
+  margin-top: -1em;
+  height: 66px; }
+
+.page-fotogallerij .views-exposed-form {
+  max-width: 610px;
+  margin: 1em auto; }
+
+.page-fotogallerij .views-exposed-form .views-exposed-widget,
+.page-fotogallerij .views-exposed-form .form-item {
+  padding: 0;
+  margin: 0; }
+
+.page-fotogallerij .views-exposed-form .views-submit-button input {
+  margin: 0;
+  margin-left: 2px; }
+
+.page-fotogallerij .views-exposed-form .views-reset-button input {
+  font-family: 'SPruit-icons';
+  background: none;
+  color: #aaa;
+  border: none;
+  font-size: 18px;
+  margin: 0; }
+
+.page-fotogallerij .views-exposed-form .views-reset-button input:hover {
+  border-color: #000;
+  color: #000; }
+
+.page-fotogallerij .views-exposed-form .ajax-progress .throbber {
+  position: absolute; }
+
+.overview .view-personeel-current-calendar-item {
+  position: absolute;
+  width: 280px;
+  height: 42px;
+  margin-top: -39px;
+  padding: 0;
+  font-size: .7em;
+  font-weight: bold; }
+
+.overview .view-personeel-current-calendar-item .view-content {
+  padding: .4em;
+  margin: 0;
+  background: rgba(254, 254, 254, 0.6); }
+
+.view-personeel-users .view-empty {
+  padding: 7.2em; }
+
+@media only screen and (max-width: 465px) {
+  .page-fotogallerij .view-filters {
+    overflow: hidden;
+    margin-top: -1em;
+    height: 77px; }
+
+  .page-fotogallerij .views-exposed-form .views-reset-button {
+    display: none; }
+
+  .page-fotogallerij .view-personeel-users .view-content {
+    padding: 0 .72em; }
+
+  .page-fotogallerij .view-personeel-users .profile {
+    height: 120px;
+    margin: 0 0 .4em 0;
+    padding: 0;
+    text-align: left;
+    width: 100%; }
+
+  .page-fotogallerij .profile img {
+    width: 120px;
+    float: left;
+    display: block;
+    margin-right: .4em; }
+
+  .page-fotogallerij .profile .title {
+    font-size: 1em;
+    text-align: left;
+    padding: .4em;
+    margin: 0; }
+
+  .page-fotogallerij .profile .field-personeel-function {
+    font-size: .8em;
+    margin: 0; } }
+@media only screen and (min-width: 466px) and (max-width: 768px) {
+  .page-fotogallerij .view-personeel-users .profile {
+    width: 200px;
+    height: 370px; }
+
+  .page-fotogallerij .view-personeel-users .profile img {
+    width: 100%; }
+
+  .page-fotogallerij .view-personeel-users .profile .title {
+    font-size: 1.14em; }
+
+  .page-fotogallerij .view-personeel-users .profile .field-personeel-function {
+    font-size: .7em; } }
+.view-nieuws .nieuws-item {
+  padding: 1rem;
+  border-bottom: 2px solid #f1f1f1; }
+
+.view-nieuws .bovenaan h2:after {
+  content: "p";
+  text-transform: none;
+  margin-left: .5rem;
+  font-family: "SPruit-icons";
+  color: #ec1b23; }
+
+.view-overzicht-arie {
+  background: #fff; }
+
+.page-wie .content-header {
+  display: none; }
+
+.view-personeel-users {
+  text-align: center;
+  padding-bottom: 1rem; }
+
+.view-personeel-users .view-filters {
+  background: none; }
+
+.view-personeel-users .view-content {
+  background: none; }
+
+.view-personeel-users .item-list .pager {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  background: #fff; }
+
+.page-wie .profile {
+  width: 280px;
+  height: 480px;
+  margin: .72em;
+  display: inline-block;
+  overflow: hidden;
+  background: #fff; }
+
+.page-wie .profile:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  box-shadow: 0 0 1.4em rgba(2, 2, 2, 0.08); }
+
+.page-wie .profile img {
+  margin: 0; }
+
+.page-wie .profile .no-picture {
+  width: 280px;
+  height: 280px;
+  background: #ccc; }
+
+.profile .title {
+  margin: .72em 0 0 0; }
+
+.profile .field-personeel-function {
+  color: #aaa;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  font-weight: normal;
+  font-size: .9em;
+  margin: .4em; }
+
+.page-wie .views-field-edit-node {
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  display: none;
+  font-size: .8em; }
+
+.page-wie .views-field-edit-node a {
+  display: inline-block;
+  background: #fff;
+  padding: .4em .72em; }
+
+.page-wie .views-field-edit-node a:hover {
+  background: #f60000;
+  color: #fff; }
+
+.page-wie .profile:hover .views-field-edit-node {
+  display: block;
+  width: 280px;
+  overflow: hidden; }
+
+.view-personeel-users .views-exposed-widgets {
+  display: flex;
+  justify-content: center; }
+
+.view-personeel-users .views-exposed-form .views-exposed-widget,
+.view-personeel-users .views-exposed-form .form-item {
+  padding: 0;
+  margin: 0; }
+
+.view-personeel-users .views-exposed-form .views-submit-button input {
+  font-family: "SPruit-icons";
+  margin-top: 0;
+  padding: 7px; }
+
+.view-personeel-users .views-exposed-form .views-reset-button input {
+  font-family: "SPruit-icons";
+  background: none;
+  color: #aaa;
+  border: none;
+  margin-top: 0;
+  padding: 7px; }
+
+.view-personeel-users .views-exposed-form .views-reset-button input:hover {
+  border-color: #000;
+  color: #000; }
+
+.view-personeel-users .views-exposed-form .ajax-progress .throbber {
+  position: absolute; }
+
+.view-personeel-users .view-personeel-current-calendar-item {
+  position: absolute;
+  width: 280px;
+  height: 42px;
+  margin-top: -39px;
+  padding: 0;
+  font-size: .7em;
+  font-weight: bold; }
+
+.view-personeel-users .view-personeel-current-calendar-item .view-content {
+  padding: .4em;
+  margin: 0;
+  background: rgba(254, 254, 254, 0.6); }
+
+.view-personeel-users .view-empty {
+  padding: 7.2em; }
+
+@media only screen and (max-width: 465px) {
+  .page-wie #edit-submit-personeel-users {
+    padding: 8px 7px;
+    font-size: 32px; }
+
+  .page-wie .views-exposed-form .views-reset-button {
+    display: none; }
+
+  .page-wie .view-personeel-users .view-content {
+    padding: 0 .72em; }
+
+  .page-wie .view-personeel-users .profile {
+    height: 120px;
+    margin: 0 0 .4em 0;
+    padding: 0;
+    text-align: left;
+    width: 100%; }
+
+  .page-wie .profile img {
+    width: 120px;
+    float: left;
+    display: block;
+    margin-right: .4em; }
+
+  .page-wie .profile .title {
+    font-size: 1em;
+    text-align: left;
+    padding: .4em;
+    margin: 0; }
+
+  .page-wie .profile .field-personeel-function {
+    font-size: .8em;
+    margin: 0; } }
+@media only screen and (min-width: 466px) and (max-width: 768px) {
+  .page-wie .view-personeel-users .profile {
+    width: 200px;
+    height: 370px; }
+
+  .page-wie .view-personeel-users .profile img {
+    width: 100%; }
+
+  .page-wie .view-personeel-users .profile .title {
+    font-size: 1.14em; }
+
+  .page-wie .view-personeel-users .profile .field-personeel-function {
+    font-size: .7em; } }
+div#content_left_bottom {
+  display: none; }
+
+/* Hide non-used field in content type Agenda */
+#field-hulpbron-add-more-wrapper {
+  display: none; }
+
+.field-bestand {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem; }
+
+.view-personeel-users .view-empty {
+  padding: 6em 0; }
+
+/*# sourceMappingURL=main.css.map */

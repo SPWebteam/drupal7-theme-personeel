@@ -1,0 +1,22 @@
+// PAGE FRONT
+.front .primary-content .content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.front .section {
+	max-width: $col4;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	//width: 100%;
+}
+//end shame
+
+.front .view-nieuws {
+	max-width: calc(720px - 1rem); //compensate margin-right
+	margin-right: 1rem;
+}
+.front .view-calendar-vandaag {
+	max-width: 220px;
+}

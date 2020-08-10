@@ -1,0 +1,14 @@
+/* Hide non-used field in content type Agenda */
+#field-hulpbron-add-more-wrapper {
+  display: none; }
+
+.field-bestand {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem; }
+
+.view-personeel-users .view-empty {
+  padding: 6em 0; }
+
+/*# sourceMappingURL=shame.css.map */

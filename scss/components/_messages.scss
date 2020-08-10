@@ -1,0 +1,29 @@
+// MESSAGES
+.messages ul {
+	text-align: left;
+}
+.messages .message {
+	padding: .72em 1.4em;
+	max-width: $col2;
+	margin: .4em auto;
+	text-align: center;
+	font-size: .9em;
+	text-shadow: 1px 1px 0 rgba(2,2,2,.1)
+}
+.messages .message a {
+	padding: .17em .4em;
+}
+.messages .message:before {
+	font-family: 'SPruit-Icons';
+	font-size: 1.14em;
+}
+
+.messages .status 	{ background: #5f7; }
+.messages .status:before  { content: '\e606'; }
+
+.messages .warning 	{ background: #ff2; }
+.messages .warning:before { content: '\e607'; }
+
+.messages .error 	{ background: #fff1f1; border: 2px solid #faa; }
+.messages .error:before   { content: '\e605';  vertical-align: -1px; color: #ec1b23;}
+

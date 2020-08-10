@@ -1,0 +1,20 @@
+// ACTION LINKS
+ul.action-links {
+	list-style: none;
+	padding-left: 1rem;
+	margin: 0 0 1rem 0;
+	li {
+		display: inline-block;
+		a {
+			color: #666;
+			background: #fff;
+			padding: 4px 8px;
+			border: 1px solid #666;
+			display: inline-block;
+			&:hover {
+				color: $color1;
+				border-color: $color1;
+			}
+		}
+	}
+}

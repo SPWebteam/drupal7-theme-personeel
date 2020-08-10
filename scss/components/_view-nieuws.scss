@@ -1,0 +1,16 @@
+// VIEW NIEUWS
+.view-nieuws .nieuws-item {
+	padding: 1rem;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+
+// STICKY (could be better)
+// drupal translates 'sticky'....
+.view-nieuws .bovenaan h2:after {
+	content: "p";
+	text-transform: none; //remove uppercase
+	margin-left: .5rem;
+	font-family: $sp-icons;
+	color: $color1;
+}

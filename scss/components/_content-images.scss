@@ -1,0 +1,75 @@
+/* Images - basic positioning */
+
+.content img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: .4em;
+	display: block;
+}
+
+.primary-content .content .align-left {
+	margin-right: 1.4em;
+	margin-bottom: 1em;
+	float: left;
+}
+
+.primary-content .content .align-right {
+	margin-left: 1.4em;
+	margin-bottom: 1em;
+	float: right;
+}
+@media only screen and (min-width: 1080px) {
+	/* Content */
+	.primary-content .content .align-right {
+  		margin-right: -3.2em;
+  	}
+	.primary-content .content .align-left {
+		margin-left: -3.2em;
+	}
+}
+.primary-content .original-size  {
+	text-align: center;
+	margin: 0;
+}
+
+.primary-content .full-width  {
+	text-align: center;
+	margin: 0;
+}
+.primary-content .full-width img {
+	width: 100%;
+}
+
+.primary-content .image-set  {
+	text-align: center;
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.primary-content .image-set img {
+	display: inline-block;
+    margin: .4em;
+}
+
+.primary-content .viewport-height {
+	width: 100%;
+	margin: 0;
+}
+.primary-content .viewport-height img{
+	max-width: auto !important;
+	height: 100vh;
+}
+
+/* Images - figure positioning */
+
+.primary-content .content figcaption {
+	color: #aaa;
+	font-size: .9em;
+	padding: .4em 0;
+}
+
+.primary-content .figure-wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}

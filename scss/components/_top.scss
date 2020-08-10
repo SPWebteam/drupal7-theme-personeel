@@ -1,0 +1,37 @@
+// TO TOP
+nav.top-nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 1em 0 1em 0;
+}
+
+nav.top-nav a {
+	display: none;
+	height: 2.4em;
+	width: 3.6em;
+	background: #F00;
+	color: #fff;
+	float: right;
+	margin-right: .72em;
+	text-decoration: none;
+	text-align: center;
+}
+nav.top-nav a:hover {
+	background: #000;
+}
+
+nav.top-nav a:before {
+	content: "^";
+	font-family: 'SPruit-icons';
+	font-size: 1.8em;
+}
+nav.top-nav a .text {
+	display: none;
+}
+
+nav.top-nav.bottom {
+	position: relative;
+}

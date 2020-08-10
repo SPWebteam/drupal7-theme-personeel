@@ -1,0 +1,59 @@
+/* View personeel calendar elements */
+.view-personeel-today .date-heading h3 {
+  text-align: left;
+  font-size: 1.4em;
+}
+.view-personeel-today .view-header .pager a {
+  background: none;
+  padding: 0 .4em;
+  display: inline-block;
+  font-size: 1.9em;
+  font-weight: normal;
+}
+/* Event type colors */
+.view-personeel-today .congres { background: rgb(253,120,110); }    
+.view-personeel-today .vergadering { background: rgb(254,224,80); }
+.view-personeel-today .verlof,
+.view-personeel-today .tijd-voor-tijd { background: rgb(254, 190, 160); }
+.view-personeel-today .single-day .verlof { background: rgb(252, 200, 186); }
+.view-personeel-today .ziek { background: rgb(212, 190, 156); }
+.view-personeel-today .roostervrij { background: rgb(223,220,210); }
+.view-personeel-today .werkt-thuis { background: rgb(210,240,210); }
+.view-personeel-today .scholing { background: rgb(210,230,254); }
+.view-personeel-today .buiten-de-deur { background: rgb(190,190,192); }
+.view-personeel-today .actie { background: rgb(236, 84, 43); }
+.view-personeel-today .bereikbaarheidsdienst-webteam { background: rgb(224, 205, 205); }
+.view-personeel-today .partij { background: rgb(236, 120, 120); }
+.view-personeel-today .month-view .full td.single-day .calendar-empty .day, 
+.view-personeel-today .month-view .full td.single-day.empty .day, 
+.view-personeel-today .month-view .full td.date-box.empty .day {
+	visibility: hidden;
+}
+
+/* Today view */
+
+
+.view-id-personeel_today ul {
+	padding: 0;
+	margin: 0 0 1rem;
+}
+.view-id-personeel_today li  {
+	display: block;
+	padding: .5rem;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: .1rem;
+}
+.view-id-personeel_today li div {
+	display: inline-block;
+}
+
+.view-id-personeel_today li:before {
+	content: 'T';
+	display: inline-block;
+	font-family: SPruit-icons;
+	color: #ec1b23;
+	font-size: 1rem;
+	margin-right: .5rem;
+}
+
+
