@@ -1,6 +1,6 @@
-ABOUT SPruit
+ABOUT SPass Personeel
 -----------
 
-SPruit is a base theme for @SPnl
+This is a drupal 7 theme converted from an old (non-SASS) SPruit theme.
 
-The purpose is to launch websites and applications quickly, and cause as low as possible maintenance overhead.
+Also viel spaß!
