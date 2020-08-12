@@ -439,12 +439,10 @@ code {
   max-width: 1080px; }
 
 strong {
-  font-family: "HelveticaNeueLTStd-Md", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
-  font-weight: normal; }
+  font-weight: bold; }
 
 em {
-  font-family: "HelveticaNeueLTStd-LtIt", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
-  font-style: normal; }
+  font-style: italic; }
 
 ul, ol {
   margin-top: 0; }
