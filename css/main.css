@@ -1514,15 +1514,9 @@ ul.menu {
 .front .view-calendar-vandaag {
   max-width: 220px; }
 
-.page-node .primary-content {
-  max-width: 720px;
+.page-node .layout-content {
+  max-width: 1440px;
   width: 100%; }
-
-.page-node .primary-content > .content {
-  padding-bottom: 1rem; }
-
-.page-node .primary-content > .tabs {
-  float: right; }
 
 @media screen and (min-width: 1080px) {
   .not-front.page-node .node {
@@ -1530,6 +1524,12 @@ ul.menu {
 
   .not-front.page-node .content-header {
     padding: 3rem 4rem 1rem 4rem; } }
+.page-node .primary-content > .content {
+  padding-bottom: 1rem; }
+
+.page-node .primary-content > .tabs {
+  float: right; }
+
 /* Where spruit-personeel is used for admin */
 .page-node-add .field-widget-date-popup .description {
   display: none; }
