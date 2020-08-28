@@ -471,7 +471,7 @@ ul.action-links {
   background: #eee;
   padding: 1rem;
   margin-bottom: 1rem;
-  max-width: 360px; }
+  max-width: 300px; }
 
 @media screen and (min-width: 1080px) {
   .book-navigation {
@@ -1515,7 +1515,7 @@ ul.menu {
   max-width: 220px; }
 
 .page-node .layout-content {
-  max-width: 1440px;
+  max-width: 960px;
   width: 100%; }
 
 @media screen and (min-width: 1080px) {
