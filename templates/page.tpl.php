@@ -76,7 +76,7 @@ if(drupal_is_front_page()){
           <?php if(drupal_is_front_page()): ?>
             <div class="section col4">
             <?php print views_embed_view('nieuws','block_2'); ?>
-            <?php print views_embed_view('calendar_vandaag','page_1'); ?>  
+            <?php //print views_embed_view('calendar_vandaag','page_1'); ?>  
             </div>
           <?php endif; ?>
           <?php print render($page['content']); ?>
