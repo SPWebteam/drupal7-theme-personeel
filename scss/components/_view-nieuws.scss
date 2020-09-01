@@ -1,7 +1,14 @@
 // VIEW NIEUWS
+.view-nieuws .view-content {
+	background: none; //remove default white background
+}
+//end shame
+
 .view-nieuws .nieuws-item {
 	padding: 1rem;
-	border-bottom: 2px solid #f1f1f1;
+	margin-bottom: 1rem;
+	background: #fff;
+	box-shadow: $box-shadow;
 }
 
 

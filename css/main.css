@@ -1512,7 +1512,8 @@ ul.menu {
   margin-right: 1rem; }
 
 .front .view-calendar-vandaag {
-  max-width: 220px; }
+  max-width: 220px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
 
 .page-node .layout-content {
   max-width: 960px;
@@ -1708,6 +1709,7 @@ ul.menu {
   width: 220px;
   padding-top: 1rem;
   background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   margin: 2rem 1rem 1rem 1rem; }
 
 .sidebar .block-menu {
@@ -2200,9 +2202,14 @@ ul.pager {
 
   .page-fotogallerij .view-personeel-users .profile .field-personeel-function {
     font-size: .7em; } }
+.view-nieuws .view-content {
+  background: none; }
+
 .view-nieuws .nieuws-item {
   padding: 1rem;
-  border-bottom: 2px solid #f1f1f1; }
+  margin-bottom: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
 
 .view-nieuws .bovenaan h2:after {
   content: "p";
