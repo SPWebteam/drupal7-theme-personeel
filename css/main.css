@@ -1516,8 +1516,7 @@ ul.menu {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
 
 .page-node .layout-content {
-  max-width: 960px;
-  width: 100%; }
+  max-width: 960px; }
 
 @media screen and (min-width: 1080px) {
   .not-front.page-node .node {
