@@ -450,22 +450,6 @@ ul, ol {
 :focus {
   outline: 1px solid #40a9ff; }
 
-ul.action-links {
-  list-style: none;
-  padding-left: 1rem;
-  margin: 0 0 1rem 0; }
-  ul.action-links li {
-    display: inline-block; }
-    ul.action-links li a {
-      color: #666;
-      background: #fff;
-      padding: 4px 8px;
-      border: 1px solid #666;
-      display: inline-block; }
-      ul.action-links li a:hover {
-        color: #ec1b23;
-        border-color: #ec1b23; }
-
 .book-navigation {
   display: inline-block;
   background: #eee;
@@ -504,294 +488,19 @@ ul.action-links {
   color: #aaa;
   text-decoration: none; }
 
-.view-calender .calendar-calendar {
-  overflow: auto; }
-
-.page-calendar .primary-content .content {
-  padding-top: 1rem; }
-
-.view-calendar {
-  padding: 0 1rem;
-  overflow-x: scroll; }
-
-.view-calender .view-header {
-  margin: 0 auto; }
-
-.view-id-personeel_calendar .date-nav-wrapper .date-nav {
-  margin: 0;
-  padding: 0; }
-
-/*
-.view-calender .action-links {
-  margin: 0 auto;
-  list-style: none;
-  padding: 0;
-  a{
-    background: #f1f1f1;
-    padding: .4em;
-    font-size: 12px;
-    display: inline-block;
-    margin: 0;
-  }
-}
-*/
-.view-calendar .date-heading h3 {
-  text-align: left;
-  font-size: 1.4em; }
-
-.view-calendar .view-header .pager a {
-  background: none;
-  padding: 0 .4em;
+.btn {
+  padding: .25rem .5rem;
+  font-family: "HelveticaInseratLTPro", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
   display: inline-block;
-  font-size: 1.9em;
-  font-weight: normal; }
-
-.view-calendar .month-view .days {
-  background: #aaa;
-  color: #fff; }
-
-.view-calendar .month-view .entry {
-  font-family: Arial,Helvetica,'Sans serif';
-  font-size: 11px;
-  padding: .4em;
-  margin: 0 0 .21em 0;
-  color: rgba(2, 2, 2, 0.72); }
-
-.view-calendar .month-view .entry .field-cal-item-name {
-  color: #000;
-  font-weight: normal;
-  display: inline-block; }
-
-.view-calendar .month-view .entry .field-event-type {
-  display: inline-block;
-  color: rgba(1, 1, 1, 0.5); }
-
-.view-calendar .month-view .entry .field-cal-item-date {
-  text-align: right;
-  display: inline;
-  font-weight: normal; }
-
-.view-calendar .month-view .entry .date-display-single {
-  font-weight: normal; }
-
-.view-calendar .month-view .entry .edit-link {
-  display: none; }
-
-.view-calendar .month-view .entry .field-author-name {
-  display: none; }
-
-.view-calendar .month-view .entry:hover {
-  background: #fafafa;
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  box-shadow: 0 0 0.4em rgba(2, 2, 2, 0.5); }
-
-.view-calendar .month-view .entry:hover .edit-link {
-  display: inline-block;
-  font-weight: normal; }
-
-.view-calendar .month-view .entry:hover .field-author-name {
-  display: inline-block;
-  font-style: italic;
-  color: #888; }
-
-.view-calendar .entry:hover {
-  background: #fafafa;
-  -ms-transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  transform: scale(1.25);
-  box-shadow: 0 0 1em rgba(2, 2, 2, 0.2); }
-
-.view-calendar .month-view .full td.date-box:hover .add-event {
-  display: block; }
-
-.view-calendar .date-box .add-event {
-  display: none;
-  position: absolute;
-  text-align: center;
-  color: #fff; }
-
-.view-calendar .date-box .add-event a {
-  display: inline-block;
-  padding: .4em .4em;
-  line-height: 1;
-  color: #fff;
-  font-family: "SPnet-icons";
-  font-size: .8em;
-  background: #aaa;
-  border-radius: 2em;
-  text-decoration: none;
-  border: none; }
-
-.view-calendar .date-box .add-event a:hover {
-  display: inline-block;
-  padding: .4em .4em;
-  line-height: 1;
-  color: #fff;
-  font-family: "SPnet-icons";
-  background: #000;
-  border-radius: 2em; }
-
-.view-calendar .date-box .day:hover .add-event {
-  display: block; }
-
-.view-calendar .month-view .days {
-  background-color: #eee;
-  border-color: #ccc;
-  color: #ccc;
-  font-weight: normal;
-  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif'; }
-
-.view-calendar .month-view .full tr td.multi-day.starts-today,
-.view-calendar .month-view .full tr td.multi-day.ends-today,
-.view-calendar .month-view .full tr td.today {
-  border-color: #fd786e !important; }
-
-.view-calendar .date-box.today .day {
-  background-color: #fd5a5a;
-  color: #fff;
-  margin-top: -1px;
-  margin-right: -2px;
-  padding: 2px; }
-
-.view-calendar .date-box .day {
-  background: none;
-  border: none;
-  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
-  color: #999; }
-
-.view-calendar td[headers="zaterdag"],
-.view-calendar td[headers="zondag"] {
-  background: #fafafa; }
-
-.view-calendar .single-day .dagindeling {
-  background: none;
-  box-shadow: none;
-  border-top: 1px dashed #ddd;
-  border-bottom: 1px dashed #ddd;
-  color: #aaa;
-  text-align: center;
-  font-size: .7em; }
-
-.view-calendar .dagindeling .field-event-type,
-.view-calendar .dagindeling:hover .field-event-type {
-  display: none !important; }
-
-.view-calendar .dagindeling .date-display-single,
-.view-calendar .dagindeling .field-ruimte,
-.view-calendar .dagindeling .field-hulpbron {
-  display: none; }
-
-.view-calendar .dagindeling:hover .date-display-single,
-.view-calendar .dagindeling:hover .field-ruimte,
-.view-calendar .dagindeling:hover .field-hulpbron {
-  display: block; }
-
-.view-calendar .field-ruimte,
-.view-calendar .field-hulpbron {
-  background: #fff;
-  padding: .71em;
-  margin: .4em 0; }
-
-.view-calendar .past .field-ruimte,
-.view-calendar .past .field-hulpbron,
-.view-calendar .past .date-display-single,
-.view-calendar .past .field-time {
-  display: none; }
-
-.view-calendar .congres {
-  background: #fd786e; }
-
-.view-calendar .vergadering {
-  background: #fee050; }
-
-.view-calendar .verlof,
-.view-calendar .tijd-voor-tijd {
-  background: #febea0; }
-
-.view-calendar .single-day .verlof {
-  background: #fcc8ba; }
-
-.view-calendar .ziek {
-  background: #d4be9c; }
-
-.view-calendar .roostervrij {
-  background: #dfdcd2; }
-
-.view-calendar .werkt-thuis {
-  background: #d2f0d2; }
-
-.view-calendar .scholing {
-  background: #d2e6fe; }
-
-.view-calendar .buiten-de-deur {
-  background: #bebec0; }
-
-.view-calendar .actie {
-  background: #ec542b; }
-
-.view-calendar .bereikbaarheidsdienst-webteam {
-  background: #e0cdcd; }
-
-.view-calendar .partij {
-  background: #ec7878; }
-
-.view-calendar .aanwezigheidsmelding-corona {
-  background: #eee; }
-
-.view-calendar .month-view .full td.single-day .calendar-empty .day,
-.view-calendar .month-view .full td.single-day.empty .day,
-.view-calendar .month-view .full td.date-box.empty .day {
-  visibility: hidden; }
-
-.view-calendar .view-filters {
-  max-width: 1280px;
-  margin: 0 auto; }
-
-.view-calendar .view-filters form {
-  margin: 0;
-  padding: 0; }
-
-.view-calendar .view-filters .description {
-  display: none; }
-
-.view-id-personeel_today ul {
-  padding: 0;
-  margin: 0 0 1rem; }
-
-.view-id-personeel_today li {
-  display: block;
-  padding: .5rem;
-  border-bottom: 2px solid #ddd;
-  margin-bottom: .1rem; }
-
-.view-id-personeel_today li div {
-  display: inline-block; }
-
-.view-id-personeel_today li:before {
-  content: 'T';
-  display: inline-block;
-  font-family: SPruit-icons;
-  color: #ec1b23;
-  font-size: 1rem;
-  margin-right: .5rem; }
-
-.view-calendar-today .view-content {
-  max-width: 72vw;
-  margin: auto;
-  background: #f1f1f1;
-  padding-top: .5rem;
-  padding-bottom: .5rem; }
-
-.view-calendar-today .views-row {
-  background: #fff;
-  margin: 1rem;
-  padding: 1em; }
-
-.content table td {
-  padding: .72em;
-  text-align: left; }
+  border: 1px solid #fff;
+  background: #fff; }
+  .btn:hover {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000; }
 
 .content table thead {
   background: #dcdcdc; }
@@ -813,7 +522,6 @@ ul.action-links {
 .content img {
   max-width: 100%;
   height: auto;
-  margin-bottom: .4em;
   display: block; }
 
 .primary-content .content .align-left {
@@ -1063,6 +771,11 @@ input[type="submit"] {
   display: flex;
   flex-direction: row;
   align-items: center; }
+
+.description {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #777; }
 
 .form-wrapper {
   margin-bottom: 1rem; }
@@ -1513,17 +1226,19 @@ ul.menu {
 
 .front .view-calendar-vandaag {
   max-width: 220px;
+  width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
 
 .page-node .layout-content {
-  max-width: 960px; }
+  max-width: 960px;
+  width: 100%; }
 
 @media screen and (min-width: 1080px) {
   .not-front.page-node .node {
-    padding: 0 4rem 4rem 4rem; }
+    padding: 0 3rem 2rem 3rem; }
 
   .not-front.page-node .content-header {
-    padding: 3rem 4rem 1rem 4rem; } }
+    padding: 2rem 3rem 1rem 3rem; } }
 .page-node .primary-content > .content {
   padding-bottom: 1rem; }
 
@@ -1715,8 +1430,7 @@ ul.menu {
   padding: 0 1rem; }
   .sidebar .block-menu h2 {
     margin-bottom: .25rem;
-    font-size: 1rem;
-    font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif; }
+    font-size: 1rem; }
   .sidebar .block-menu ul.menu {
     list-style: none;
     padding-left: 0; }
@@ -2000,9 +1714,22 @@ nav.top-nav.bottom {
 
 .view-content table {
   width: 100%;
-  font-size: .8rem; }
+  font-size: 0.8rem; }
   .view-content table th {
-    padding: .25rem; }
+    padding: 0.25rem; }
+    .view-content table th a {
+      display: flex; }
+      .view-content table th a:hover {
+        border-bottom: none; }
+  .view-content table td {
+    padding: 0.25rem; }
+
+.views-table {
+  font-size: 0.8rem; }
+  .views-table .odd {
+    background: #fff; }
+  .views-table .even {
+    background: #f9f9f9; }
 
 .item-list {
   margin: 1rem 0; }
@@ -2015,7 +1742,8 @@ ul.pager {
   display: inline-block;
   background: #fff;
   padding: .5rem;
-  font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif; }
+  font-family: "HelveticaNeueLTStd-BdCn", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
   .pager li a {
     color: #333;
     padding: .5rem;
@@ -2024,15 +1752,323 @@ ul.pager {
     border-bottom: none;
     color: #ec1b23; }
 
-.view-calendar-vandaag .date-nav-wrapper {
+.view .date-nav-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0; }
+  .view .date-nav-wrapper .throbber {
+    display: none; }
+  .view .date-nav-wrapper .date-nav {
+    margin: 0 0 1rem 0;
+    padding: 0; }
+  .view .date-nav-wrapper .date-heading h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .view .date-nav-wrapper ul.pager {
+    padding-left: 0;
+    margin-bottom: 0; }
+  .view .date-nav-wrapper .date-prev,
+  .view .date-nav-wrapper .date-next {
+    border-radius: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0; }
+    .view .date-nav-wrapper .date-prev a,
+    .view .date-nav-wrapper .date-next a {
+      margin: 0;
+      background: #ec1b23;
+      color: #fff;
+      padding: 0 0.5rem 0.125rem 0.5rem;
+      margin-left: 0; }
+      .view .date-nav-wrapper .date-prev a:hover,
+      .view .date-nav-wrapper .date-next a:hover {
+        background: #000; }
+
+.view-calender .calendar-calendar {
+  overflow: auto; }
+
+.page-calendar .primary-content .content {
+  padding-top: 1rem; }
+
+.view-calendar {
+  padding: 0 1rem;
+  overflow-x: scroll;
+  max-width: 1440px; }
+
+.view-calender .view-header {
+  margin: 0 auto; }
+
+.view-id-personeel_calendar .date-nav-wrapper .date-nav {
+  margin: 0;
+  padding: 0; }
+
+.view-calendar .date-heading h3 {
+  text-align: left;
+  font-size: 1.4em; }
+
+.view-calendar .month-view .days {
+  background: #aaa;
+  color: #fff; }
+
+.view-calendar .month-view .entry {
+  font-family: Arial,Helvetica,'Sans serif';
+  font-size: 11px;
+  padding: .4em;
+  margin: 0 0 .21em 0;
+  color: rgba(2, 2, 2, 0.72); }
+
+.view-calendar .month-view .entry .field-cal-item-name {
+  color: #000;
+  font-weight: normal;
+  display: inline-block; }
+
+.view-calendar .month-view .entry .field-event-type {
+  display: inline-block;
+  color: rgba(1, 1, 1, 0.5); }
+
+.view-calendar .month-view .entry .field-cal-item-date {
+  text-align: right;
+  display: inline;
+  font-weight: normal; }
+
+.view-calendar .month-view .entry .date-display-single {
+  font-weight: normal; }
+
+.view-calendar .month-view .entry .edit-link {
   display: none; }
+
+.view-calendar .month-view .entry .field-author-name {
+  display: none; }
+
+.view-calendar .month-view .entry:hover {
+  background: #fafafa;
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  box-shadow: 0 0 0.4em rgba(2, 2, 2, 0.5); }
+
+.view-calendar .month-view .entry:hover .edit-link {
+  display: inline-block;
+  font-weight: normal; }
+
+.view-calendar .month-view .entry:hover .field-author-name {
+  display: inline-block;
+  font-style: italic;
+  color: #888; }
+
+.view-calendar .entry:hover {
+  background: #fafafa;
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  box-shadow: 0 0 1em rgba(2, 2, 2, 0.2); }
+
+.view-calendar .month-view .full td.date-box:hover .add-event {
+  display: block; }
+
+.view-calendar .date-box .add-event {
+  display: none;
+  position: absolute;
+  text-align: center;
+  color: #fff; }
+
+.view-calendar .date-box .add-event a {
+  display: inline-block;
+  padding: .4em .4em;
+  line-height: 1;
+  color: #fff;
+  font-family: "SPnet-icons";
+  font-size: .8em;
+  background: #aaa;
+  border-radius: 2em;
+  text-decoration: none;
+  border: none; }
+
+.view-calendar .date-box .add-event a:hover {
+  display: inline-block;
+  padding: .4em .4em;
+  line-height: 1;
+  color: #fff;
+  font-family: "SPnet-icons";
+  background: #000;
+  border-radius: 2em; }
+
+.view-calendar .date-box .day:hover .add-event {
+  display: block; }
+
+.view-calendar .month-view .days {
+  background-color: #eee;
+  border-color: #ccc;
+  color: #ccc;
+  font-weight: normal;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif'; }
+
+.view-calendar .month-view .full tr td.multi-day.starts-today,
+.view-calendar .month-view .full tr td.multi-day.ends-today,
+.view-calendar .month-view .full tr td.today {
+  border-color: #fd786e !important; }
+
+.view-calendar .date-box.today .day {
+  background-color: #fd5a5a;
+  color: #fff;
+  margin-top: -1px;
+  margin-right: -2px;
+  padding: 2px; }
+
+.view-calendar .date-box .day {
+  background: none;
+  border: none;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  color: #999; }
+
+.view-calendar td[headers="zaterdag"],
+.view-calendar td[headers="zondag"] {
+  background: #fafafa; }
+
+.view-calendar .single-day .dagindeling {
+  background: none;
+  box-shadow: none;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+  color: #aaa;
+  text-align: center;
+  font-size: .7em; }
+
+.view-calendar .dagindeling .field-event-type,
+.view-calendar .dagindeling:hover .field-event-type {
+  display: none !important; }
+
+.view-calendar .dagindeling .date-display-single,
+.view-calendar .dagindeling .field-ruimte,
+.view-calendar .dagindeling .field-hulpbron {
+  display: none; }
+
+.view-calendar .dagindeling:hover .date-display-single,
+.view-calendar .dagindeling:hover .field-ruimte,
+.view-calendar .dagindeling:hover .field-hulpbron {
+  display: block; }
+
+.view-calendar .field-ruimte,
+.view-calendar .field-hulpbron {
+  background: #fff;
+  padding: .71em;
+  margin: .4em 0; }
+
+.view-calendar .past .field-ruimte,
+.view-calendar .past .field-hulpbron,
+.view-calendar .past .date-display-single,
+.view-calendar .past .field-time {
+  display: none; }
+
+.view-calendar .congres {
+  background: #fd786e; }
+
+.view-calendar .vergadering {
+  background: #fee050; }
+
+.view-calendar .verlof,
+.view-calendar .tijd-voor-tijd {
+  background: #febea0; }
+
+.view-calendar .single-day .verlof {
+  background: #fcc8ba; }
+
+.view-calendar .ziek {
+  background: #d4be9c; }
+
+.view-calendar .roostervrij {
+  background: #dfdcd2; }
+
+.view-calendar .werkt-thuis {
+  background: #d2f0d2; }
+
+.view-calendar .scholing {
+  background: #d2e6fe; }
+
+.view-calendar .buiten-de-deur {
+  background: #bebec0; }
+
+.view-calendar .actie {
+  background: #ec542b; }
+
+.view-calendar .bereikbaarheidsdienst-webteam {
+  background: #e0cdcd; }
+
+.view-calendar .partij {
+  background: #ec7878; }
+
+.view-calendar .aanwezigheidsmelding-corona {
+  background: #eee; }
+
+.view-calendar .month-view .full td.single-day .calendar-empty .day,
+.view-calendar .month-view .full td.single-day.empty .day,
+.view-calendar .month-view .full td.date-box.empty .day {
+  visibility: hidden; }
+
+.view-calendar .view-filters {
+  margin: 0 auto; }
+
+.view-calendar .view-filters form {
+  margin: 0;
+  padding: 0; }
+
+.view-calendar .view-filters .description {
+  display: none; }
+
+.view-id-personeel_today ul {
+  padding: 0;
+  margin: 0 0 1rem; }
+
+.view-id-personeel_today li {
+  display: block;
+  padding: .5rem;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: .1rem; }
+
+.view-id-personeel_today li div {
+  display: inline-block; }
+
+.view-id-personeel_today li:before {
+  content: 'T';
+  display: inline-block;
+  font-family: SPruit-icons;
+  color: #ec1b23;
+  font-size: 1rem;
+  margin-right: .5rem; }
+
+.view-calendar-today .view-content {
+  max-width: 72vw;
+  margin: auto;
+  background: #f1f1f1;
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.view-calendar-today .views-row {
+  background: #fff;
+  margin: 1rem;
+  padding: 1em; }
 
 .view-calendar-vandaag .views-row-last {
   margin-bottom: 1rem; }
 
+.view-calendar-vandaag .pager {
+  padding-left: 0;
+  margin-bottom: 0; }
+  .view-calendar-vandaag .pager .date-prev {
+    right: 0; }
+
+.view-calendar-vandaag .view .date-nav-wrapper .date-heading h3 {
+  font-size: 1rem; }
+
 .view-calendar-vandaag {
   padding: 1rem;
   background: #fff; }
+  .view-calendar-vandaag h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem; }
 
 .view-calendar-vandaag .views-row {
   font-size: .75rem; }
@@ -2205,7 +2241,7 @@ ul.pager {
   background: none; }
 
 .view-nieuws .nieuws-item {
-  padding: 1rem;
+  padding: 2rem 3rem;
   margin-bottom: 1rem;
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
@@ -2219,6 +2255,22 @@ ul.pager {
 
 .view-overzicht-arie {
   background: #fff; }
+
+.view-personeel-lijst .view-header {
+  text-align: center; }
+
+.view-personeel-lijst .views-exposed-widgets {
+  display: flex; }
+
+.view-personeel-lijst .views-exposed-form .views-exposed-widget {
+  padding: 0;
+  float: none; }
+  .view-personeel-lijst .views-exposed-form .views-exposed-widget .form-submit {
+    margin-top: 0;
+    font-family: "SPruit-icons";
+    font-size: 1.125rem;
+    padding: 6px 8px;
+    margin-top: 0; }
 
 .page-wie .content-header {
   display: none; }
@@ -2384,6 +2436,59 @@ ul.pager {
 
   .page-wie .view-personeel-users .profile .field-personeel-function {
     font-size: .7em; } }
+.view-personeel-zoeken {
+  max-width: 1440px; }
+  .view-personeel-zoeken .view-filters {
+    margin-bottom: 1rem; }
+  .view-personeel-zoeken .views-exposed-form .views-exposed-widget {
+    padding: 0 1rem 0 0; }
+  .view-personeel-zoeken .view-content {
+    background: none !important; }
+  .view-personeel-zoeken .personeel-card {
+    background: #fff;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .view-personeel-zoeken .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    .view-personeel-zoeken .view-content .views-row {
+      width: 100%;
+      max-width: 340px;
+      margin-right: 1rem;
+      margin-bottom: 1rem; }
+    .view-personeel-zoeken .view-content .personeel-info {
+      vertical-align: top;
+      padding: 0.5rem;
+      font-size: 0.8rem; }
+  .view-personeel-zoeken .personeel-image img {
+    width: 150px;
+    height: 150px;
+    max-width: 150px; }
+  .view-personeel-zoeken h2 {
+    font-family: "HelveticaInseratLTPro", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+
+#views-exposed-form-personeel-zoeken-page {
+  padding: 1rem; }
+  #views-exposed-form-personeel-zoeken-page input {
+    width: 100%; }
+  #views-exposed-form-personeel-zoeken-page .views-exposed-widgets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+    #views-exposed-form-personeel-zoeken-page .views-exposed-widgets .views-exposed-widget {
+      padding: 0; }
+  #views-exposed-form-personeel-zoeken-page .form-submit {
+    font-family: "SPruit-icons";
+    font-size: 1.125rem;
+    padding: 6px 8px;
+    margin-top: 1.375rem; }
+
 div#content_left_bottom {
   display: none; }
 

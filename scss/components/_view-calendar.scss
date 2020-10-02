@@ -10,6 +10,7 @@
 .view-calendar {
   padding: 0 1rem;
   overflow-x: scroll;
+  max-width: $container;
 }
 
 // VIEW HEADER
@@ -22,33 +23,11 @@
   padding: 0;
 }
 
-/*
-.view-calender .action-links {
-  margin: 0 auto;
-  list-style: none;
-  padding: 0;
-  a{
-    background: #f1f1f1;
-    padding: .4em;
-    font-size: 12px;
-    display: inline-block;
-    margin: 0;
-  }
-}
-*/
 // VIEW CALENDAR
 .view-calendar .date-heading h3 {
   text-align: left;
   font-size: 1.4em;
 }
-.view-calendar .view-header .pager a {
-  background: none;
-  padding: 0 .4em;
-  display: inline-block;
-  font-size: 1.9em;
-  font-weight: normal;
-}
-
 
 // DAYS
 .view-calendar .month-view .days {
@@ -263,7 +242,6 @@
 
 // VIEW FILTERS
 .view-calendar .view-filters {
-  max-width: 1280px;
   margin: 0 auto;
 }
 .view-calendar .view-filters form {

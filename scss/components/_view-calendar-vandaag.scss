@@ -1,15 +1,26 @@
 // CALENDAR VANDAAG
-.view-calendar-vandaag .date-nav-wrapper {
-	display: none;
-}
 .view-calendar-vandaag .views-row-last {
 	margin-bottom: 1rem;
 }
-// end shame
+.view-calendar-vandaag .pager {
+	padding-left: 0;
+	margin-bottom: 0;
+	.date-prev {
+		right: 0;
+	}
+}
+.view-calendar-vandaag .view .date-nav-wrapper .date-heading h3 {
+	font-size: 1rem; 
+}
+// end shame...what a mess ;(
 
 .view-calendar-vandaag {
 	padding: 1rem;
 	background: #fff;
+	h3 {
+		font-size: 1rem;
+		margin-bottom: 0.25rem;
+	}
 }
 .view-calendar-vandaag .views-row {
 	font-size: .75rem;

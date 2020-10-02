@@ -1,0 +1,69 @@
+// VIEW PERSONEEL ZOEKEN
+.view-personeel-zoeken {
+	max-width: $container;
+	.view-filters {
+		margin-bottom: 1rem;
+	}
+	.views-exposed-form .views-exposed-widget {
+		padding: 0 1rem 0 0; //should be fixed default?
+	}
+	.view-content {
+		background: none!important; //remove default style	
+	}
+	.personeel-card {
+		background: #fff;
+		margin-bottom: 1rem;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+	.view-content {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		.views-row {
+			width: 100%;
+			max-width: 340px;
+			margin-right: 1rem;
+			margin-bottom: 1rem;
+		}
+		.personeel-info { //custom data field as wrapper
+			vertical-align: top;
+			padding: 0.5rem;
+			font-size: 0.8rem;
+		}
+	}
+	.personeel-image img{
+		width: 150px;
+		height: 150px;
+		max-width: 150px; //quickfix .content img
+	}
+	h2 {
+		font-family: $font-primary;
+		font-size: 1rem;
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+}
+
+// EXPOSED FORM AS BLOCK
+#views-exposed-form-personeel-zoeken-page {
+	padding: 1rem;
+	input {
+		width: 100%; // prevent overflow
+	}
+	.views-exposed-widgets { // quickfix to make widgets inline
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		.views-exposed-widget {
+			padding: 0; // remove padding from module
+		}
+	}
+	.form-submit { // replace 'S' with search icon
+		font-family: "SPruit-icons";
+	    font-size: 1.125rem;
+    	padding: 6px 8px;
+    	margin-top: 1.375rem;
+	}
+}

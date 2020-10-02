@@ -14,9 +14,29 @@
 }
 .view-content table {
 	width: 100%;
-	font-size: .8rem;
+	font-size: 0.8rem;
 	th {
-		padding: .25rem;
+		padding: 0.25rem;
+		a {
+			display: flex; //a fix to make arrow img inline when sorting is enabled
+			&:hover {
+				border-bottom: none;
+			}
+		}
+	}
+	td {
+		padding: 0.25rem;
+	}
+}
+
+// VIEW TABLE
+.views-table {
+	font-size: 0.8rem;
+	.odd {
+		background: #fff;
+	}
+	.even {
+		background: #f9f9f9;
 	}
 }
 
@@ -34,6 +54,7 @@ ul.pager {
 	background: #fff;
 	padding: .5rem;
 	font-family: $font-middle;
+	box-shadow: $box-shadow;
 	a {
 		color: #333;
 		padding: .5rem;
@@ -42,5 +63,48 @@ ul.pager {
 	a:hover {
 		border-bottom: none;
 		color: $color1;
+	}
+}
+
+
+// VIEW PAGER DATE
+.view .date-nav-wrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+	.throbber {
+		display: none; //hide ajax loading indicator
+	}
+	.date-nav {
+	    margin: 0 0 1rem 0;
+	    padding: 0;
+	}
+	.date-heading h3 {
+    	font-size: 1.5rem;
+    	text-align: center;
+	}
+	ul.pager {
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+	.date-prev,
+	.date-next {
+		border-radius: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding: 0;
+		a {
+			margin: 0;
+			background: $color1;
+			color: #fff;
+			padding: 0 0.5rem 0.125rem 0.5rem;
+			margin-left: 0;
+			&:hover {
+				background: #000;
+			}
+		}
 	}
 }

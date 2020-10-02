@@ -1,8 +1,8 @@
 // COMPONENTS
-@import 'action-links';
+//@import 'action-links';
 @import 'book';
 @import 'breadcrumbs';
-@import 'calendar';
+@import 'buttons';
 @import 'content';
 @import 'content-images';
 @import 'dashboard';
@@ -39,12 +39,15 @@
 @import 'user';
 @import 'utility';
 @import 'view'; // global styling for all views
+@import 'view-calendar';
 @import 'view-calendar-vandaag';
 @import 'view-findadmin-space-occupation';
 @import 'view-foto-overzicht';
 @import 'view-nieuws';
 @import 'view-overzicht-arie';
+@import 'view-personeel-lijst';
 @import 'view-personeel-users';
+@import 'view-personeel-zoeken';
 
 
 @import 'page--node--10178';

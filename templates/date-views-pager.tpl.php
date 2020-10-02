@@ -37,10 +37,10 @@
     </div>
     <ul class="pager">
     <?php if (!empty($prev_url)) : ?>
-      <li class="date-prev"><a href="<?php print $prev_url; ?>">&laquo;</a></li>
+      <li class="date-prev"><a href="<?php print $prev_url; ?>"><</a></li>
     <?php endif; ?>
     <?php if (!empty($next_url)) : ?>
-      <li class="date-next"><a href="<?php print $next_url; ?>">&raquo;</a></li>
+      <li class="date-next"><a href="<?php print $next_url; ?>">></a></li>
     <?php endif; ?>
     </ul>
   </div>

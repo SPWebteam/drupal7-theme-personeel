@@ -1,14 +1,15 @@
 // PAGE NODE
 .page-node .layout-content {
 	max-width: 960px; //needs tweaking
+	width: 100%;
 }
 // EXTRA PADDING (this needs a global fix)
 @media screen and (min-width: $col3){
 	.not-front.page-node .node {
-		padding: 0 4rem 4rem 4rem;
+		padding: 0 3rem 2rem 3rem;
 	}
 	.not-front.page-node .content-header {
-		padding: 3rem 4rem 1rem 4rem;
+		padding: 2rem 3rem 1rem 3rem;
 	}
 }
 .page-node .primary-content > .content {
