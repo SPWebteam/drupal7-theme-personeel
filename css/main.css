@@ -2489,6 +2489,10 @@ ul.pager {
     padding: 6px 8px;
     margin-top: 1.375rem; }
 
+.view-vragen {
+  padding: 1rem;
+  background: #fff; }
+
 div#content_left_bottom {
   display: none; }
 
