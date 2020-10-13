@@ -1,4 +1,8 @@
 // ACTION LINKS
+ul.action-links:empty {
+	display: none; //prevent margin if empty
+}
+/* disabled for now
 ul.action-links {
 	list-style: none;
 	padding-left: 1rem;
@@ -17,4 +21,8 @@ ul.action-links {
 			}
 		}
 	}
+	&:empty {
+		display: none; //prevent margin-bottom 1rem if empty
+	}
 }
+*/
