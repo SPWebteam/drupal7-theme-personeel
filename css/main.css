@@ -529,8 +529,20 @@ ul.action-links {
     color: #fff;
     border: 1px solid #000; }
 
-.content table thead {
-  background: #dcdcdc; }
+.primary-content table {
+  background: #fff;
+  width: 100%;
+  font-size: 0.8rem; }
+
+.primary-content table td {
+  padding: 0.25rem; }
+.primary-content table th {
+  background: #ec1b23;
+  color: #fff;
+  padding: 0.25rem;
+  font-weight: normal; }
+  .primary-content table th a {
+    color: #fff; }
 
 .content-header {
   background: #fff;
@@ -1054,59 +1066,42 @@ ul.links.inline li {
       color: #333;
       border-bottom: none; }
 
-.page-lunch .tabs li.active {
-  display: inline-block; }
-
-.page-lunch .tabs li.active a {
-  color: #fff;
-  background-color: #000; }
-
-.page-lunch .content table td {
-  padding: 0 1em; }
-
-.page-lunch .primary-content .content {
-  text-align: center;
-  background: #eee;
-  padding-bottom: 2em; }
-
-.page-lunch .primary-content .tabs {
-  margin-bottom: .4em;
-  text-align: center; }
-
-.page-lunch .content form {
-  display: inline-block;
-  background: #fff;
-  padding: 2em;
-  margin: 2em; }
-
-.page-lunch .content table thead {
-  background: #f60000 none repeat scroll 0% 0%;
-  color: #fff; }
-
 .page-lunch header.content-header {
   display: none; }
 
-.page-lunch td.active-week {
-  border-top: 1px solid #f60000;
-  border-bottom: 1px solid #f60000; }
+.page-lunch .tabs,
+.page-lunch-mutations .tabs {
+  text-align: center; }
 
-.page-lunch td.active-day {
-  color: #f60000; }
+#lunch-guest-fin-form,
+#lunch-shopping-form,
+#lunch-form-ajax-wrapper {
+  background: #fff;
+  padding: 1rem; }
 
-.page-lunch .site-footer div.content {
-  background: #fff; }
+#lunch-participant-form {
+  background: #fff;
+  padding: 1rem; }
+  #lunch-participant-form table {
+    font-size: 0.8rem;
+    margin: 0 auto 1rem auto; }
+  #lunch-participant-form thead {
+    background: #ec1b23;
+    color: #fff;
+    padding: 0.25rem; }
+  #lunch-participant-form td {
+    padding: 0.25rem 0.5rem; }
+  #lunch-participant-form td.active-week {
+    border-top: 1px solid #ec1b23;
+    border-bottom: 1px solid #ec1b23; }
+  #lunch-participant-form td.active-day {
+    color: #ec1b23; }
 
 .page-lunch-mutations content {
   background-color: #fff; }
 
 .page-lunch-mutations table {
-  font-size: 0.9em; }
-
-#lunch-info-form ul {
-  list-style: none; }
-
-#lunch-info-form ul li {
-  padding: 0; }
+  font-size: 0.8rem; }
 
 .messages ul {
   text-align: left; }
@@ -1618,8 +1613,9 @@ ul.menu {
   background: #000;
   color: #fff; }
 
-.tabs li.active {
-  display: none; }
+.tabs li.active a {
+  background: #000;
+  color: #fff; }
 
 .term-listing-heading {
   background: #fff;
@@ -1743,7 +1739,8 @@ nav.top-nav.bottom {
   width: 100%;
   font-size: 0.8rem; }
   .view-content table th {
-    padding: 0.25rem; }
+    padding: 0.25rem;
+    color: #000; }
     .view-content table th a {
       display: flex; }
       .view-content table th a:hover {

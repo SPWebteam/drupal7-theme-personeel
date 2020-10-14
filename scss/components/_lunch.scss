@@ -1,67 +1,55 @@
-.page-lunch .tabs li.active {
-  display: inline-block;
-}
-
-.page-lunch .tabs li.active a {
-  color: #fff;
-  background-color: #000;
-}
-
-.page-lunch .content table td {
-  padding: 0 1em;
-}
-
-.page-lunch .primary-content .content {
-  text-align: center;
-  background: #eee;
-  padding-bottom: 2em;
-}
-
-.page-lunch .primary-content .tabs {
-  margin-bottom: .4em;
-  text-align: center;
-}
-
-.page-lunch .content form {
-  display: inline-block;
-  background: #fff;
-  padding: 2em;
-  margin: 2em;
-}
-
-.page-lunch .content table thead {
-  background: #f60000 none repeat scroll 0% 0%;
-  color: #fff;
-}
-
+// LUNCH
 .page-lunch header.content-header {
   display: none;
 }
-
-.page-lunch td.active-week {
-  border-top: 1px solid #f60000;
-  border-bottom: 1px solid #f60000;
+// allign tabs
+.page-lunch,
+.page-lunch-mutations {
+  .tabs {
+    text-align: center;
+  }
 }
+//end shame
 
-.page-lunch td.active-day {
-  color: #f60000;
-}
-
-.page-lunch .site-footer div.content {
+#lunch-guest-fin-form,
+#lunch-shopping-form,
+#lunch-form-ajax-wrapper {
   background: #fff;
+  padding: 1rem;
 }
 
+
+// INSCHRIJVEN
+#lunch-participant-form {
+  background: #fff;
+  padding: 1rem;
+  table {
+    font-size: 0.8rem;
+    margin: 0 auto 1rem auto;
+  }
+  thead {
+    background: $color1;;
+    color: #fff;
+    padding: 0.25rem;
+  }
+  td {
+    padding: 0.25rem 0.5rem;
+  }
+  td.active-week {
+    border-top: 1px solid $color1;
+    border-bottom: 1px solid $color1;
+  }
+  td.active-day {
+    color: $color1;
+  }
+}
+
+
+// MUTATIES
+// no ID or wrapper available
 .page-lunch-mutations content {
   background-color: #fff;
 }
-
 .page-lunch-mutations table {
-  font-size: 0.9em;
-}
-
-#lunch-info-form ul {
-  list-style: none;
-}
-#lunch-info-form ul li {
-  padding: 0;
+  font-size: 0.8rem;
 }

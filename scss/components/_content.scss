@@ -1,13 +1,26 @@
 // CONTENT
 
-// OLD
-.content table td {
-	//padding: .72em;
-	//text-align: left;
+// PRIMARY-CONTENT TABLES
+.primary-content table {
+	background: #fff;
+	width: 100%;
+	font-size: 0.8rem;
 }
-.content table thead {
-	background: #dcdcdc;
+.primary-content table {
+	td {
+		padding: 0.25rem;
+	}
+	th {
+		background: $color1;
+		color: #fff;
+		padding: 0.25rem;
+		font-weight: normal;
+		a {
+			color: #fff;
+		}
+	}
 }
+
 
 // TITLES
 .content-header {
