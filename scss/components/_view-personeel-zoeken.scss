@@ -9,7 +9,7 @@
 	}
 	> .view-content {
 		display: grid;
-		grid-template-columns: 360px 360px 360px;
+		grid-template-columns: 360px;
 		gap: 1rem;
 		justify-items: stretch;
 		background: none!important; //remove default style
@@ -45,6 +45,17 @@
 				}
 			}
 		}
+	}
+}
+// this needs to be better...
+@media screen and (min-width: 988px) {
+	.view-personeel-zoeken > .view-content {
+		grid-template-columns: 360px 360px;
+	}
+}
+@media screen and (min-width: 1324px) {
+	.view-personeel-zoeken > .view-content {
+		grid-template-columns: 360px 360px 360px;
 	}
 }
 @media screen and (min-width: 1780px) {
