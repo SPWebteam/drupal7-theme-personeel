@@ -2464,48 +2464,47 @@ ul.pager {
 
   .page-wie .view-personeel-users .profile .field-personeel-function {
     font-size: .7em; } }
-.view-personeel-zoeken .view-filters {
-  margin-bottom: 1rem; }
-.view-personeel-zoeken .views-exposed-form .views-exposed-widget {
-  padding: 0 1rem 0 0; }
-.view-personeel-zoeken > .view-content {
-  display: grid;
-  grid-template-columns: 360px 360px 360px;
-  gap: 1rem;
-  justify-items: stretch;
-  background: none !important; }
-  .view-personeel-zoeken > .view-content .persoon .personeel-card {
+.view-personeel-zoeken {
+  max-width: 1440px; }
+  .view-personeel-zoeken .view-content {
+    background: none !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    .view-personeel-zoeken .view-content .views-row {
+      width: 100%;
+      max-width: 340px; }
+  .view-personeel-zoeken .view-header {
+    text-align: center; }
+  .view-personeel-zoeken .view-filters {
+    margin-bottom: 1rem; }
+  .view-personeel-zoeken .views-exposed-form .views-exposed-widget {
+    padding: 0 1rem 0 0; }
+  .view-personeel-zoeken .personeel-card {
     background: #fff;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; }
-    .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-image img {
-      width: 150px;
-      height: 150px;
-      max-width: 150px; }
-    .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-info {
-      vertical-align: top;
-      padding: 0.5rem;
-      font-size: 0.8rem; }
-      .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-info h2 {
-        font-family: "HelveticaInseratLTPro", sans-serif;
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 0; }
-  .view-personeel-zoeken > .view-content .persoon .personeel-agenda {
-    background: #fff; }
-    .view-personeel-zoeken > .view-content .persoon .personeel-agenda .afspraak {
-      border-top: 1px solid #ddd;
-      font-size: 0.8rem;
-      padding: 2px 4px; }
+  .view-personeel-zoeken .personeel-info {
+    vertical-align: top;
+    padding: 0.5rem;
+    font-size: 0.8rem; }
+    .view-personeel-zoeken .personeel-info h2 {
+      font-size: 1rem;
+      margin-bottom: 0; }
+  .view-personeel-zoeken .personeel-image img {
+    width: 150px;
+    height: 150px;
+    max-width: 150px; }
 
-@media screen and (min-width: 1780px) {
-  .view-personeel-zoeken > .view-content {
-    grid-template-columns: 360px 360px 360px 360px; } }
 #views-exposed-form-personeel-zoeken-page {
   padding: 1rem; }
   #views-exposed-form-personeel-zoeken-page input {
     width: 100%; }
+  #views-exposed-form-personeel-zoeken-page label {
+    display: none; }
   #views-exposed-form-personeel-zoeken-page .views-exposed-widgets {
     display: flex;
     flex-direction: row;
@@ -2516,7 +2515,7 @@ ul.pager {
     font-family: "SPruit-icons";
     font-size: 1.125rem;
     padding: 6px 8px;
-    margin-top: 1.375rem; }
+    margin-top: 0; }
 
 .view-vragen {
   padding: 1rem;
