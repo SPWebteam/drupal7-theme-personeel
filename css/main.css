@@ -2268,6 +2268,9 @@ ul.pager {
 .view-nieuws .view-content {
   background: none; }
 
+.view-nieuws .field-afbeelding {
+  margin-bottom: 0.5rem; }
+
 .view-nieuws .nieuws-item {
   padding: 2rem 3rem;
   margin-bottom: 1rem;
@@ -2524,9 +2527,10 @@ ul.pager {
     padding: 6px 8px;
     margin-top: 1.375rem; }
 
-.view-vragen {
+.view-veelgestelde-vragen {
   padding: 1rem;
-  background: #fff; }
+  background: #fff;
+  max-width: 1440px; }
 
 div#content_left_bottom {
   display: none; }
