@@ -20,7 +20,11 @@
 		margin-bottom: 0.25rem;
 	}
 }
-.view-calendar-vandaag .view-header,
+.view-calendar-vandaag .view-header{
+	padding: 1rem 1rem 0rem 1rem;
+	background: #fff;
+	box-shadow: $box-shadow;
+}
 .view-calendar-vandaag .view-content {
 	padding: 1rem;
 	background: #fff;

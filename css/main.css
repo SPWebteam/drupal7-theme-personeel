@@ -2079,7 +2079,11 @@ ul.pager {
   font-size: 1rem;
   margin-bottom: 0.25rem; }
 
-.view-calendar-vandaag .view-header,
+.view-calendar-vandaag .view-header {
+  padding: 1rem 1rem 0rem 1rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
+
 .view-calendar-vandaag .view-content {
   padding: 1rem;
   background: #fff;
