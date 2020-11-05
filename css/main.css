@@ -722,6 +722,21 @@ ul.action-links {
 .personeelsfotos img {
   margin: 0; }
 
+.field-tags {
+  display: inline-block; }
+  .field-tags a {
+    display: inline-block;
+    font-size: .8rem;
+    padding: 0.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #ddd; }
+    .field-tags a:hover {
+      background: #000;
+      color: #fff; }
+
 .site-footer {
   text-align: center;
   color: #aaa;
@@ -2527,10 +2542,21 @@ ul.pager {
     padding: 6px 8px;
     margin-top: 1.375rem; }
 
+.view-taxonomy-term {
+  background: #fff;
+  padding: 2rem 3rem; }
+  .view-taxonomy-term h1.title {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: .25rem; }
+  .view-taxonomy-term .node {
+    margin-bottom: 1rem; }
+
 .view-veelgestelde-vragen {
   padding: 1rem;
   background: #fff;
   max-width: 1440px; }
+  .view-veelgestelde-vragen .views-row-last {
+    margin-bottom: 1rem; }
 
 div#content_left_bottom {
   display: none; }
