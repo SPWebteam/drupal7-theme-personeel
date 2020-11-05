@@ -1,9 +1,14 @@
 // FOOTER
 .site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
   color: #aaa;
   background: #fff;
   padding-top: 1rem;
+  border-top: 1px solid #ddd;
 }
 // TOMATO
 .site-footer:after {

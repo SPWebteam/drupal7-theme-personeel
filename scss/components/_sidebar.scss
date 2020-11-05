@@ -1,15 +1,11 @@
 // SIDEBAR
 
 .sidebar {
-	display: flex;
-	flex-direction: column;
 }
 .sidebar-fixed {
-	width: 220px;
 	padding-top: 1rem;
 	background: #fff;
 	box-shadow: $box-shadow;
-	margin: 2rem 1rem 1rem 1rem;
 }
 .sidebar .block-menu {
 	padding: 0 1rem;
