@@ -1,5 +1,11 @@
 // LAYOUT
 // don't put any styling in here. layout only!!!
+.layout-front { //need to fix this in page.tpl.php
+	display: grid;
+	column-gap: 1rem;
+	grid-template-columns: 920px 220px;
+}
+//end shame
 
 .layout-page {
 }
@@ -11,8 +17,13 @@
 }
 @media screen and (min-width: 1196px){
 	.layout-main {
-		grid-template-columns: 220px minmax(1112px, auto); // 360 18 360 18 360 = 1112
+		grid-template-columns: 220px 1112px; // 360 18 360 18 360 = 1112
 		justify-content: center;
+	}
+}
+@media screen and (min-width: 1780px){
+	.layout-main {
+		grid-template-columns: 220px 1490px; // 360 18 360 18 360 18 360 = 1490
 	}
 }
 .layout-sidebar {

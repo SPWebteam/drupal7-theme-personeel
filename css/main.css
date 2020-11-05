@@ -1035,6 +1035,11 @@ input[type="submit"] {
   margin: 1rem auto;
   padding: 1rem 1rem 0 1rem; }
 
+.layout-front {
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: 920px 220px; }
+
 .layout-main {
   display: grid;
   grid-template-columns: 220px auto;
@@ -1043,8 +1048,11 @@ input[type="submit"] {
 
 @media screen and (min-width: 1196px) {
   .layout-main {
-    grid-template-columns: 220px minmax(1112px, auto);
+    grid-template-columns: 220px 1112px;
     justify-content: center; } }
+@media screen and (min-width: 1780px) {
+  .layout-main {
+    grid-template-columns: 220px 1490px; } }
 .col1 {
   max-width: 360px; }
 
@@ -1236,26 +1244,6 @@ ul.menu {
 .page-eform .primary-content form {
   background: #fff;
   padding: 1rem; }
-
-.front .primary-content .content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap; }
-
-.front .section {
-  max-width: 1440px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; }
-
-.front .view-nieuws {
-  max-width: calc(720px - 1rem);
-  margin-right: 1rem; }
-
-.front .view-calendar-vandaag {
-  max-width: 220px;
-  width: 100%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
 
 .page-node .layout-content {
   max-width: 960px;
@@ -2087,12 +2075,15 @@ ul.pager {
 .view-calendar-vandaag .view .date-nav-wrapper .date-heading h3 {
   font-size: 1rem; }
 
-.view-calendar-vandaag {
+.view-calendar-vandaag h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem; }
+
+.view-calendar-vandaag .view-header,
+.view-calendar-vandaag .view-content {
   padding: 1rem;
-  background: #fff; }
-  .view-calendar-vandaag h3 {
-    font-size: 1rem;
-    margin-bottom: 0.25rem; }
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
 
 .view-calendar-vandaag .views-row {
   font-size: .75rem; }

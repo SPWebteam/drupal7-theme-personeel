@@ -15,12 +15,16 @@
 // end shame...what a mess ;(
 
 .view-calendar-vandaag {
-	padding: 1rem;
-	background: #fff;
 	h3 {
 		font-size: 1rem;
 		margin-bottom: 0.25rem;
 	}
+}
+.view-calendar-vandaag .view-header,
+.view-calendar-vandaag .view-content {
+	padding: 1rem;
+	background: #fff;
+	box-shadow: $box-shadow;
 }
 .view-calendar-vandaag .views-row {
 	font-size: .75rem;
