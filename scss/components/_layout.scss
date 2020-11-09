@@ -3,7 +3,7 @@
 .layout-front { //need to fix this in page.tpl.php
 	display: grid;
 	column-gap: 1rem;
-	grid-template-columns: 920px 220px;
+	grid-template-columns: auto 220px;
 }
 //end shame
 
@@ -13,9 +13,10 @@
 	display: grid;
 	grid-template-columns: 220px auto;
 	column-gap: 1rem;
-	padding: 1rem 1rem 72px 1rem; // 72px for fixed footer
+	padding-top: 1rem;
+	padding-bottom: 72px; // 72px for fixed footer
 }
-@media screen and (min-width: 1196px){
+@media screen and (min-width: 1332px){
 	.layout-main {
 		grid-template-columns: 220px 1112px; // 360 18 360 18 360 = 1112
 		justify-content: center;

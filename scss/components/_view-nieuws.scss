@@ -13,6 +13,25 @@
 	background: #fff;
 	box-shadow: $box-shadow;
 }
+// VIEW-NIEWS-OVERZICHT
+.view-nieuws-overzicht {
+	.nieuws-item {
+		padding: 1rem;
+	}
+}
+@media screen and (min-width: 1100px){
+	.view-nieuws-overzicht .view-content {
+		display: grid;
+		grid-template-columns: auto auto;
+		column-gap: 1rem;		
+	}
+}
+@media screen and (min-width: 1332px){
+	.view-nieuws-overzicht .view-content {
+		grid-template-columns: auto auto auto;
+	}
+}
+
 
 // STICKY (could be better)
 // drupal translates 'sticky'....
