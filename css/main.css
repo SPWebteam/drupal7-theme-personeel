@@ -2265,21 +2265,35 @@ ul.pager {
 
 .view-nieuws .nieuws-item {
   padding: 2rem 3rem;
-  margin-bottom: 1rem;
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
 
 .view-nieuws-overzicht .nieuws-item {
-  padding: 1rem; }
+  padding: 1rem;
+  font-size: 0.8rem; }
+  .view-nieuws-overzicht .nieuws-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem; }
+.view-nieuws-overzicht .nieuws-item {
+  position: relative; }
+.view-nieuws-overzicht .views-field-body {
+  padding-bottom: 1rem; }
+  .view-nieuws-overzicht .views-field-body .views-more-link {
+    position: absolute;
+    bottom: 1rem; }
 
 @media screen and (min-width: 1100px) {
   .view-nieuws-overzicht .view-content {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 1rem; } }
+    column-gap: 1rem;
+    row-gap: 1rem; } }
 @media screen and (min-width: 1332px) {
   .view-nieuws-overzicht .view-content {
     grid-template-columns: auto auto auto; } }
+@media screen and (min-width: 1780px) {
+  .view-nieuws-overzicht .view-content {
+    grid-template-columns: auto auto auto auto; } }
 .view-nieuws .bovenaan h2:after {
   content: "p";
   text-transform: none;
