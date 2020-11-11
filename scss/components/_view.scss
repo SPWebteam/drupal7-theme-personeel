@@ -3,7 +3,7 @@
 
 // EXPOSED FILTERS
 .view-filters {
-	background: #fff;
+	//background: #fff;
 	padding: 1rem;
 }
 
@@ -13,10 +13,9 @@
 	background: #fff;
 }
 .view-content table {
-	width: 100%;
-	font-size: 0.8rem;
+	//font-size: 0.8rem;
 	th {
-		padding: 0.25rem;
+		//padding: 0.25rem;
 		color: #000;
 		a {
 			display: flex; //a fix to make arrow img inline when sorting is enabled
@@ -26,13 +25,13 @@
 		}
 	}
 	td {
-		padding: 0.25rem;
+		//padding: 0.25rem;
 	}
 }
 
 // VIEW TABLE
 .views-table {
-	font-size: 0.8rem;
+	//font-size: 0.8rem;
 	.odd {
 		background: #fff;
 	}

@@ -531,18 +531,21 @@ ul.action-links {
 
 .primary-content table {
   background: #fff;
-  width: 100%;
   font-size: 0.8rem; }
 
-.primary-content table td {
-  padding: 0.25rem; }
-.primary-content table th {
-  background: #ec1b23;
-  color: #fff;
-  padding: 0.25rem;
-  font-weight: normal; }
-  .primary-content table th a {
-    color: #fff; }
+.primary-content table {
+  border: 1px solid #ddd; }
+  .primary-content table th {
+    background: #ec1b23;
+    color: #fff;
+    padding: 0.25rem;
+    font-weight: normal; }
+    .primary-content table th a {
+      color: #fff; }
+  .primary-content table tr:hover {
+    background: #ddd; }
+  .primary-content table td {
+    padding: 0.25rem; }
 
 .content-header {
   background: #fff;
@@ -1718,31 +1721,22 @@ nav.top-nav.bottom {
   text-align: left; }
 
 .view-filters {
-  background: #fff;
   padding: 1rem; }
 
 .view-content {
   background: #fff; }
 
-.view-content table {
-  width: 100%;
-  font-size: 0.8rem; }
-  .view-content table th {
-    padding: 0.25rem;
-    color: #000; }
-    .view-content table th a {
-      display: flex; }
-      .view-content table th a:hover {
-        border-bottom: none; }
-  .view-content table td {
-    padding: 0.25rem; }
+.view-content table th {
+  color: #000; }
+  .view-content table th a {
+    display: flex; }
+    .view-content table th a:hover {
+      border-bottom: none; }
 
-.views-table {
-  font-size: 0.8rem; }
-  .views-table .odd {
-    background: #fff; }
-  .views-table .even {
-    background: #f9f9f9; }
+.views-table .odd {
+  background: #fff; }
+.views-table .even {
+  background: #f9f9f9; }
 
 .item-list {
   margin: 1rem 0; }
