@@ -8,6 +8,9 @@
 // NIEUWS ITEM
 .view-nieuws .field-afbeelding {
 	margin-bottom: 0.5rem;
+	float: left;
+	margin-right: 1rem;
+	max-width: 200px;
 }
 .view-nieuws .nieuws-item {
 	padding: 2rem 3rem;
@@ -18,42 +21,30 @@
 
 // NIEUWS OVERZICHT
 .view-nieuws-overzicht {
-	.nieuws-item {
-		padding: 1rem;
-		font-size: 0.8rem;
-		h2 {
-			font-size: 1.2rem;
-			margin-bottom: 0.5rem;
-		}
-	}
-	//position read-more to bottom
-	.nieuws-item {
-		position: relative; //to align absolute element
-	}
-	.views-field-body {
-		padding-bottom: 1rem;
-		.views-more-link{
-			position: absolute;
-			bottom: 1rem;
-		}
-	}
-}
-@media screen and (min-width: 1100px){
-	.view-nieuws-overzicht .view-content {
+	.view-content {
 		display: grid;
-		grid-template-columns: auto auto;
-		column-gap: 1rem;
-		row-gap: 1rem;		
-	}
-}
-@media screen and (min-width: 1332px){
-	.view-nieuws-overzicht .view-content {
-		grid-template-columns: auto auto auto;
-	}
-}
-@media screen and (min-width: 1780px){
-	.view-nieuws-overzicht .view-content {
-		grid-template-columns: auto auto auto auto;
+		grid-template-columns: auto;
+		row-gap: 1rem;
+		.nieuws-item {
+			padding: 1rem;
+			position: relative; //parent need relative for absolute more link
+			h2 {
+				font-size: 1.2rem;
+				margin-bottom: 0.5rem;
+			}
+			.field-afbeelding {
+				margin-bottom: 0;
+			}
+			//more link with absolute
+			.nieuws-body {
+				padding-bottom: 1rem;
+				.views-more-link {
+					position: absolute;
+					bottom: 1rem;
+					right: 1rem;
+				}
+			}
+		}
 	}
 }
 

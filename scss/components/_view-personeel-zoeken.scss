@@ -1,6 +1,5 @@
 // VIEW PERSONEEL ZOEKEN
 .view-personeel-zoeken {
-	//max-width: $container;
 	.view-filters {
 		margin-bottom: 1rem;
 	}
@@ -58,11 +57,13 @@
 		grid-template-columns: 360px 360px 360px;
 	}
 }
+/*
 @media screen and (min-width: 1780px) {
 	.view-personeel-zoeken > .view-content {
 		grid-template-columns: 360px 360px 360px 360px;
 	}
 }
+*/
 // EXPOSED FORM AS BLOCK
 #views-exposed-form-personeel-zoeken-page {
 	padding: 1rem;
