@@ -2487,45 +2487,45 @@ ul.pager {
   gap: 1rem;
   justify-items: stretch;
   background: none !important; }
-  .view-personeel-zoeken > .view-content .persoon .personeel-card {
-    background: #fff;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; }
-    .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-image {
-      position: relative; }
+  .view-personeel-zoeken > .view-content .persoon {
+    position: relative; }
+    .view-personeel-zoeken > .view-content .persoon .edit a {
+      position: absolute;
+      background: #fff;
+      top: 0;
+      left: 45px;
+      font-size: 0.8rem;
+      padding: 0 2px;
+      text-align: center; }
+      .view-personeel-zoeken > .view-content .persoon .edit a:hover {
+        background: #ec1b23;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: none; }
+    .view-personeel-zoeken > .view-content .persoon .personeel-card {
+      background: #fff;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap; }
       .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-image img {
         width: 150px;
         height: 150px;
         max-width: 150px; }
-      .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-image .edit a {
-        position: absolute;
-        background: #fff;
-        bottom: 0;
-        left: 45px;
+      .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-info {
+        vertical-align: top;
+        padding: 0.5rem;
+        font-size: 0.8rem; }
+        .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-info h2 {
+          font-family: "HelveticaInseratLTPro", sans-serif;
+          font-size: 1rem;
+          text-transform: uppercase;
+          margin-bottom: 0; }
+    .view-personeel-zoeken > .view-content .persoon .personeel-agenda {
+      background: #fff; }
+      .view-personeel-zoeken > .view-content .persoon .personeel-agenda .afspraak {
+        border-top: 1px solid #ddd;
         font-size: 0.8rem;
-        padding: 0 2px;
-        text-align: center; }
-        .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-image .edit a:hover {
-          background: #ec1b23;
-          color: #fff;
-          text-decoration: none;
-          border-bottom: none; }
-    .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-info {
-      vertical-align: top;
-      padding: 0.5rem;
-      font-size: 0.8rem; }
-      .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-info h2 {
-        font-family: "HelveticaInseratLTPro", sans-serif;
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 0; }
-  .view-personeel-zoeken > .view-content .persoon .personeel-agenda {
-    background: #fff; }
-    .view-personeel-zoeken > .view-content .persoon .personeel-agenda .afspraak {
-      border-top: 1px solid #ddd;
-      font-size: 0.8rem;
-      padding: 2px 4px; }
+        padding: 2px 4px; }
 
 @media screen and (min-width: 988px) {
   .view-personeel-zoeken > .view-content {
