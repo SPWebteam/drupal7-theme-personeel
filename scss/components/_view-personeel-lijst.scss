@@ -2,6 +2,9 @@
 .view-personeel-lijst .view-header {
 	text-align: center;
 }
+.view-personeel-lijst .view-content {
+	background: none; //remove default white background
+}
 
 // EXPOSED WIDGET
 .view-personeel-lijst .views-exposed-widgets {

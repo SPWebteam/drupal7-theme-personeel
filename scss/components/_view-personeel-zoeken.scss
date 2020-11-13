@@ -18,10 +18,28 @@
 				display: flex;
 				flex-direction: row;
 				flex-wrap: nowrap;
-				.personeel-image img{
-					width: 150px;
-					height: 150px;
-					max-width: 150px; //quickfix .content img
+				.personeel-image {
+					position: relative; //for absolute .edit
+					img{
+						width: 150px;
+						height: 150px;
+						max-width: 150px; //quickfix .content img
+					}
+					.edit a {
+						position: absolute;
+						background: #fff;
+						bottom: 0;
+						left: 45px;
+						font-size: 0.8rem;
+						padding: 0 2px;
+						text-align: center;
+						&:hover {
+							background: $color1;
+							color: #fff;
+							text-decoration: none;
+							border-bottom: none;
+						}
+					}
 				}
 				.personeel-info { //custom data field as wrapper
 					vertical-align: top;
