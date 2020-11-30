@@ -67,13 +67,6 @@
   display: none;
 }
 
-.view-calendar .month-view .entry:hover {
-  background: #fafafa;
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  box-shadow: 0 0 .4em rgba(2,2,2,.5);
-}
 .view-calendar .month-view .entry:hover .edit-link { 
   display: inline-block;
   font-weight: normal; 
@@ -85,10 +78,8 @@
 }
 .view-calendar .entry:hover {
   background: #fafafa;
-  -ms-transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  transform: scale(1.25);
-  box-shadow: 0 0 1em rgba(2,2,2,.2);
+  transform: none;
+  box-shadow: 0 0 1em rgba(2,2,2,.3);
 }
 
 

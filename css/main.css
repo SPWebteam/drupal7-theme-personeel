@@ -1849,13 +1849,6 @@ ul.pager {
 .view-calendar .month-view .entry .field-author-name {
   display: none; }
 
-.view-calendar .month-view .entry:hover {
-  background: #fafafa;
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  box-shadow: 0 0 0.4em rgba(2, 2, 2, 0.5); }
-
 .view-calendar .month-view .entry:hover .edit-link {
   display: inline-block;
   font-weight: normal; }
@@ -1867,10 +1860,8 @@ ul.pager {
 
 .view-calendar .entry:hover {
   background: #fafafa;
-  -ms-transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  transform: scale(1.25);
-  box-shadow: 0 0 1em rgba(2, 2, 2, 0.2); }
+  transform: none;
+  box-shadow: 0 0 1em rgba(2, 2, 2, 0.3); }
 
 .view-calendar .month-view .full td.date-box:hover .add-event {
   display: block; }
