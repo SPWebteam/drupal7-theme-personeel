@@ -1,6 +1,9 @@
 // VIEW NIEUWS
 .view-nieuws .view-content {
 	background: none; //remove default white background
+	ul {
+		overflow: hidden; //prevent list-style overflow with floating image
+	}
 }
 //end shame
 

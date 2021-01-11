@@ -2244,6 +2244,8 @@ ul.pager {
     font-size: .7em; } }
 .view-nieuws .view-content {
   background: none; }
+  .view-nieuws .view-content ul {
+    overflow: hidden; }
 
 .view-nieuws .field-afbeelding {
   margin-bottom: 0.5rem;
