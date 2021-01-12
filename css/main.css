@@ -839,6 +839,9 @@ input[type="submit"] {
   font-style: italic;
   color: #777; }
 
+.form-item {
+  margin-bottom: 0.5rem; }
+
 .form-wrapper {
   margin-bottom: 1rem; }
 
@@ -874,6 +877,13 @@ input[type="submit"] {
 .form-item .form-text.error {
   background: #fee;
   border-bottom: 2px solid #f66666; }
+
+.webform-component label {
+  display: block; }
+
+.webform-component.webform-container-inline label {
+  display: inline;
+  margin-right: 0; }
 
 .menu-toggle {
   display: none; }
