@@ -2591,4 +2591,9 @@ div#content_left_bottom {
 .view-personeel-users .view-empty {
   padding: 6em 0; }
 
+.not-logged-in .layout-main {
+  display: block;
+  max-width: 720px;
+  margin: auto; }
+
 /*# sourceMappingURL=main.css.map */
