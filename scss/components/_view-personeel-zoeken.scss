@@ -8,10 +8,13 @@
 	}
 	> .view-content {
 		display: grid;
-		grid-template-columns: 360px;
+		grid-template-columns: 320px;
 		gap: 1rem;
 		justify-items: stretch;
 		background: none!important; //remove default style
+		.views-row{
+			background: #fff;
+		}
 		.persoon {
 			position: relative;
 			//edit link
@@ -32,14 +35,17 @@
 			}
 			.personeel-card {
 				background: #fff;
-				display: flex;
-				flex-direction: row;
-				flex-wrap: nowrap;
+				display: grid;
+				grid-template-rows: auto auto;
+				grid-template-columns: 320px;
+				//flex-direction: row;
+				//flex-wrap: nowrap;
+
 				.personeel-image {
 					img{
-						width: 150px;
-						height: 150px;
-						max-width: 150px; //quickfix .content img
+						//width: 100%;
+						//height: auto;
+						//max-width: 360px; //quickfix .content img
 					}
 				}
 				.personeel-info { //custom data field as wrapper
@@ -66,14 +72,14 @@
 	}
 }
 // this needs to be better...
-@media screen and (min-width: 988px) {
+@media screen and (min-width: 892px) {
 	.view-personeel-zoeken > .view-content {
-		grid-template-columns: 360px 360px;
+		grid-template-columns: 320px 320px;
 	}
 }
-@media screen and (min-width: 1324px) {
+@media screen and (min-width: 1228px) {
 	.view-personeel-zoeken > .view-content {
-		grid-template-columns: 360px 360px 360px;
+		grid-template-columns: 320px 320px 320px;
 	}
 }
 /*

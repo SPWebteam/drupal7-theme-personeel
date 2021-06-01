@@ -2486,10 +2486,12 @@ ul.pager {
   padding: 0 1rem 0 0; }
 .view-personeel-zoeken > .view-content {
   display: grid;
-  grid-template-columns: 360px;
+  grid-template-columns: 320px;
   gap: 1rem;
   justify-items: stretch;
   background: none !important; }
+  .view-personeel-zoeken > .view-content .views-row {
+    background: #fff; }
   .view-personeel-zoeken > .view-content .persoon {
     position: relative; }
     .view-personeel-zoeken > .view-content .persoon .edit a {
@@ -2507,13 +2509,9 @@ ul.pager {
         border-bottom: none; }
     .view-personeel-zoeken > .view-content .persoon .personeel-card {
       background: #fff;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap; }
-      .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-image img {
-        width: 150px;
-        height: 150px;
-        max-width: 150px; }
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: 320px; }
       .view-personeel-zoeken > .view-content .persoon .personeel-card .personeel-info {
         vertical-align: top;
         padding: 0.5rem;
@@ -2530,12 +2528,12 @@ ul.pager {
         font-size: 0.8rem;
         padding: 2px 4px; }
 
-@media screen and (min-width: 988px) {
+@media screen and (min-width: 892px) {
   .view-personeel-zoeken > .view-content {
-    grid-template-columns: 360px 360px; } }
-@media screen and (min-width: 1324px) {
+    grid-template-columns: 320px 320px; } }
+@media screen and (min-width: 1228px) {
   .view-personeel-zoeken > .view-content {
-    grid-template-columns: 360px 360px 360px; } }
+    grid-template-columns: 320px 320px 320px; } }
 /*
 @media screen and (min-width: 1780px) {
 	.view-personeel-zoeken > .view-content {
