@@ -1,5 +1,5 @@
-// VIEW PERSONEEL ZOEKEN
-.view-personeel-zoeken {
+// VIEW PERSONEEL AFDELING
+.view-personeel-zoeken-per-afdeling {
 	.view-filters {
 		margin-bottom: 1rem;
 	}
@@ -9,9 +9,23 @@
 	> .view-content {
 		display: grid;
 		grid-template-columns: 320px;
-		gap: 1rem;
+		gap: 2px;
 		justify-items: stretch;
 		background: none!important; //remove default style
+		> h3 {
+			background: #fff;
+			margin-bottom: 0;
+			padding: 1rem;
+			color: $color1;
+			font-size: 1.5rem;
+			display: flex;
+			> div {
+				margin-right: 1rem;
+			}
+		}
+		> h3:not(:first-of-type){
+			margin-top: 3rem;
+		}
 		.views-row{
 			background: #fff;
 		}
@@ -22,7 +36,7 @@
 				position: absolute;
 				background: #fff;
 				top: 0;
-				left: 0;
+				right: 0;
 				font-size: 0.8rem;
 				padding: 0 2px;
 				text-align: center;
@@ -55,7 +69,6 @@
 						margin-bottom: 0;
 					}
 				}
-
 			}
 			.personeel-agenda {
 				background: #fff;
@@ -70,18 +83,24 @@
 }
 // this needs to be better...
 @media screen and (min-width: 892px) {
-	.view-personeel-zoeken > .view-content {
+	.view-personeel-zoeken-per-afdeling > .view-content {
 		grid-template-columns: 320px 320px;
+		> h3 {
+			grid-column: 1/3;
+		}
 	}
 }
 @media screen and (min-width: 1228px) {
-	.view-personeel-zoeken > .view-content {
+	.view-personeel-zoeken-per-afdeling > .view-content {
 		grid-template-columns: 320px 320px 320px;
+		> h3 {
+			grid-column: 1/4;
+		}
 	}
 }
 /*
 @media screen and (min-width: 1780px) {
-	.view-personeel-zoeken > .view-content {
+	.view-personeel-zoeken-per-afdeling > .view-content {
 		grid-template-columns: 360px 360px 360px 360px;
 	}
 }

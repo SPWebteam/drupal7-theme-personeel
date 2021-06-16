@@ -2297,6 +2297,103 @@ ul.pager {
 .view-overzicht-arie {
   background: #fff; }
 
+.view-personeel-zoeken-per-afdeling .view-filters {
+  margin-bottom: 1rem; }
+.view-personeel-zoeken-per-afdeling .views-exposed-form .views-exposed-widget {
+  padding: 0 1rem 0 0; }
+.view-personeel-zoeken-per-afdeling > .view-content {
+  display: grid;
+  grid-template-columns: 320px;
+  gap: 2px;
+  justify-items: stretch;
+  background: none !important; }
+  .view-personeel-zoeken-per-afdeling > .view-content > h3 {
+    background: #fff;
+    margin-bottom: 0;
+    padding: 1rem;
+    color: #ec1b23;
+    font-size: 1.5rem;
+    display: flex; }
+    .view-personeel-zoeken-per-afdeling > .view-content > h3 > div {
+      margin-right: 1rem; }
+  .view-personeel-zoeken-per-afdeling > .view-content > h3:not(:first-of-type) {
+    margin-top: 3rem; }
+  .view-personeel-zoeken-per-afdeling > .view-content .views-row {
+    background: #fff; }
+  .view-personeel-zoeken-per-afdeling > .view-content .persoon {
+    position: relative; }
+    .view-personeel-zoeken-per-afdeling > .view-content .persoon .edit a {
+      position: absolute;
+      background: #fff;
+      top: 0;
+      right: 0;
+      font-size: 0.8rem;
+      padding: 0 2px;
+      text-align: center; }
+      .view-personeel-zoeken-per-afdeling > .view-content .persoon .edit a:hover {
+        background: #ec1b23;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: none; }
+    .view-personeel-zoeken-per-afdeling > .view-content .persoon .werkplek {
+      font-size: 0.8rem;
+      position: absolute;
+      bottom: 4px;
+      right: 4px; }
+    .view-personeel-zoeken-per-afdeling > .view-content .persoon .personeel-card {
+      background: #fff;
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: 320px; }
+      .view-personeel-zoeken-per-afdeling > .view-content .persoon .personeel-card .personeel-info {
+        vertical-align: top;
+        padding: 0.5rem;
+        font-size: 0.8rem; }
+        .view-personeel-zoeken-per-afdeling > .view-content .persoon .personeel-card .personeel-info h2 {
+          font-family: "HelveticaInseratLTPro", sans-serif;
+          font-size: 1rem;
+          text-transform: uppercase;
+          margin-bottom: 0; }
+    .view-personeel-zoeken-per-afdeling > .view-content .persoon .personeel-agenda {
+      background: #fff; }
+      .view-personeel-zoeken-per-afdeling > .view-content .persoon .personeel-agenda .afspraak {
+        border-top: 1px solid #ddd;
+        font-size: 0.8rem;
+        padding: 2px 4px; }
+
+@media screen and (min-width: 892px) {
+  .view-personeel-zoeken-per-afdeling > .view-content {
+    grid-template-columns: 320px 320px; }
+    .view-personeel-zoeken-per-afdeling > .view-content > h3 {
+      grid-column: 1/3; } }
+@media screen and (min-width: 1228px) {
+  .view-personeel-zoeken-per-afdeling > .view-content {
+    grid-template-columns: 320px 320px 320px; }
+    .view-personeel-zoeken-per-afdeling > .view-content > h3 {
+      grid-column: 1/4; } }
+/*
+@media screen and (min-width: 1780px) {
+	.view-personeel-zoeken-per-afdeling > .view-content {
+		grid-template-columns: 360px 360px 360px 360px;
+	}
+}
+*/
+#views-exposed-form-personeel-zoeken-page {
+  padding: 1rem; }
+  #views-exposed-form-personeel-zoeken-page input {
+    width: 100%; }
+  #views-exposed-form-personeel-zoeken-page .views-exposed-widgets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+    #views-exposed-form-personeel-zoeken-page .views-exposed-widgets .views-exposed-widget {
+      padding: 0; }
+  #views-exposed-form-personeel-zoeken-page .form-submit {
+    font-family: "SPruit-icons";
+    font-size: 1.125rem;
+    padding: 6px 8px;
+    margin-top: 1.375rem; }
+
 .view-personeel-lijst .view-header {
   text-align: center; }
 
@@ -2315,6 +2412,107 @@ ul.pager {
     font-size: 1.125rem;
     padding: 6px 8px;
     margin-top: 0; }
+
+.view-personeel-zoeken-per-team .view-content {
+  background: none !important;
+  display: grid;
+  gap: 2rem; }
+.view-personeel-zoeken-per-team .view-grouping-header {
+  max-width: calc(320px);
+  padding-left: 0.5rem;
+  background: #fff; }
+.view-personeel-zoeken-per-team .view-grouping-header > h2 {
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: #ec1b23;
+  font-size: 1.5rem; }
+.view-personeel-zoeken-per-team .view-grouping-header > h2:not(:first-of-type) {
+  margin-top: 1rem; }
+.view-personeel-zoeken-per-team .view-grouping-title {
+  grid-column: 1/4;
+  background: #fff;
+  padding-left: 0.5rem; }
+.view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content {
+  display: grid;
+  grid-template-columns: 320px;
+  gap: 2px;
+  justify-items: stretch; }
+  .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .views-row {
+    background: #fff; }
+  .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon {
+    position: relative; }
+    .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon .edit a {
+      position: absolute;
+      background: #fff;
+      top: 0;
+      right: 0;
+      font-size: 0.8rem;
+      padding: 0 2px;
+      text-align: center; }
+      .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon .edit a:hover {
+        background: #ec1b23;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: none; }
+    .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon .werkplek {
+      font-size: 0.8rem;
+      position: absolute;
+      bottom: 4px;
+      right: 4px; }
+    .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon .personeel-card {
+      background: #fff;
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: 320px; }
+      .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon .personeel-card .personeel-info {
+        vertical-align: top;
+        padding: 0.5rem;
+        font-size: 0.8rem; }
+        .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon .personeel-card .personeel-info h2 {
+          font-family: "HelveticaInseratLTPro", sans-serif;
+          font-size: 1rem;
+          text-transform: uppercase;
+          margin-bottom: 0; }
+    .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon .personeel-agenda {
+      background: #fff; }
+      .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content .persoon .personeel-agenda .afspraak {
+        border-top: 1px solid #ddd;
+        font-size: 0.8rem;
+        padding: 2px 4px; }
+
+@media screen and (min-width: 892px) {
+  .view-personeel-zoeken-per-team .view-grouping-header {
+    max-width: calc(320px + 2px + 320px); }
+  .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content {
+    grid-template-columns: 320px 320px; }
+    .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content > h3 {
+      grid-column: 1/3; } }
+@media screen and (min-width: 1228px) {
+  .view-personeel-zoeken-per-team .view-grouping-header {
+    max-width: calc(320px + 2px + 320px + 2px + 320px); }
+  .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content {
+    grid-template-columns: 320px 320px 320px; }
+    .view-personeel-zoeken-per-team .view-grouping .view-grouping-content .view-grouping .view-grouping-content > h3 {
+      grid-column: 1/4; } }
+/*
+@media screen and (min-width: 1780px) {
+	.view-personeel-zoeken-per-team > .view-content > .view-grouping{
+		grid-template-columns: 360px 360px 360px 360px;
+	}
+}
+*/
+.view-personeel-zoeken-per-teams table {
+  width: 100%; }
+.view-personeel-zoeken-per-teams th {
+  background: #c6d0d9; }
+.view-personeel-zoeken-per-teams .view-content {
+  background: none; }
+.view-personeel-zoeken-per-teams .views-table {
+  margin-bottom: 2rem; }
+.view-personeel-zoeken-per-teams caption {
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 1rem; }
 
 .page-wie .content-header {
   display: none; }
@@ -2507,6 +2705,11 @@ ul.pager {
         color: #fff;
         text-decoration: none;
         border-bottom: none; }
+    .view-personeel-zoeken > .view-content .persoon .werkplek {
+      font-size: 0.8rem;
+      position: absolute;
+      bottom: 4px;
+      right: 4px; }
     .view-personeel-zoeken > .view-content .persoon .personeel-card {
       background: #fff;
       display: grid;
