@@ -2503,8 +2503,8 @@ ul.pager {
 */
 .view-personeel-zoeken-per-teams table {
   width: 100%; }
-.view-personeel-zoeken-per-teams th {
-  background: #c6d0d9; }
+  .view-personeel-zoeken-per-teams table th {
+    background: #d9e0ec; }
 .view-personeel-zoeken-per-teams .view-content {
   background: none; }
 .view-personeel-zoeken-per-teams .views-table {
